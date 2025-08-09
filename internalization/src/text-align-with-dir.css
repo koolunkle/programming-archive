@@ -1,0 +1,17 @@
+/* 문서 방향에 기반해 텍스트 정렬하기 */
+
+/*
+    dir='ltr'이면 텍스트를 왼쪽 기준으로 정렬하고
+    dir='rtl'이면 텍스트를 오르쪽 기준으로 정렬한다
+*/
+.text-start {
+    text-align: start;
+}
+
+/*
+    dir='ltr'이면 텍스트를 오른쪽 기준으로 정렬하고
+    dir='rtl'이면 텍스트를 왼쪽 기준으로 정렬한다
+*/
+.text-end {
+    text-align: end;
+}

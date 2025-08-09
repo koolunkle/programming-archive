@@ -1,0 +1,12 @@
+.icon-text-ltr {
+    display: flex;
+    align-items: center;
+}
+
+.icon-ltr {
+    width: 20px;
+
+    /* 아이콘은 텍스트 왼쪽에 위치한다 */
+    /* margin-right: 10px; */
+    margin-inline-end: 10px;
+}
