@@ -1,9 +1,14 @@
-package kr.or.mrhi;
+package service;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+
+import model.Seafood;
+import util.DBConnection;
+import util.Library;
+import util.Regex;
 
 public class SeafoodService {
 

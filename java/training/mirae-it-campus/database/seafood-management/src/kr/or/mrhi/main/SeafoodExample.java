@@ -1,4 +1,6 @@
-package kr.or.mrhi;
+package main;
+
+import service.SeafoodService;
 
 public class SeafoodExample {
 
