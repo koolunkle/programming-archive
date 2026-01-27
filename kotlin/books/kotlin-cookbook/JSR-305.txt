@@ -1,0 +1,46 @@
+자바에 널 허용성 지시자 추가하기
+    1. Gradle에서 JSR-305 호환성 강제하기
+        가. groovy-dsl
+            sourceCompatibility = 1.8
+            compileKotlin {
+                kotlinOptions {
+                    jvmTarget = "1.8"
+                    freeCompilerArgs = ["-Xjsr305=strict"]
+                }
+            }
+            compileTestKotlin {
+                kotlinOptions {
+                    jvmTarget = "1.8"
+                    freeCompilerArgs = ["-Xjsr305=strict"]
+                }
+            }
+
+        나. kotlin-dsl
+            tasks.withType<KotlinCompile> {
+                kotlinOptions {
+                    jvmTarget = "1.8"
+                    freeCompilerArgs = listOf("X-jsr305=strict")
+                }
+            }   
+
+    2. Maven에서 JSR-305 호환성 강제하기
+        가. POM 파일
+            <plug>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-maven-plugin</artifactId>
+                <version>${kotlin.version}</version>
+                <executions>...</executions>
+                <configuration>
+                    <nowarn>true</nowarn> <!-- Disable warnings -->
+                    <args>
+                        <!-- Enable strict mode for JSR-305 annotations -->
+                        <arg>-Xjsr305=strict</arg>
+                        ...
+                    </args>
+                </configuration>
+            </plug>
+        나. @Nonnull 어노테이션
+            JSR-305에 정의된 @Nonnull 어노테이션은 when이라는 속성을 갖음
+            when 속성의 값이 when.ALWAYS인 경우 해당 어노테이션 타입은 널 비허용 타입으로 다룸
+            when 속성의 값이 when.MAYBE 또는 when.NEVER라면 널 허용 타입으로 다뤄짐
+            when 속성의 값이 when.UNKNOWN이라면 해당 타입은 널 허용성을 알 수 없는 플랫폼 타입으로 간주             

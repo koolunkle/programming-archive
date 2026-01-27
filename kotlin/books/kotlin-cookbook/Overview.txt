@@ -1,0 +1,396 @@
+코틀린 쿡북
+
+    이 책에서 다루는 내용
+        * 람다, 시퀀스, 동시성 등 함수형 프로그래밍 개념 적용
+        * 대리자, 지연 초기화, 영역 함수 사용 방법
+        * 자바 호환성, 코틀린을 사용한 자바 라이브러리 접근 방법
+        * 사용자 정의 확장 함수 추가
+        * JUnit 5 같은 유용한 라이브러리 사용법
+        * 안드로이드와 스프링 등 특정 프레임워크를 위한 실용적인 조언
+
+    찾아보기
+        * 숫자, 기호
+            0b, 선행되는 숫자 리터럴
+            `**`
+            `(백틱)
+            == 연산자
+            === 레퍼런스 동등 연산자
+            _(밑줄)
+            !! 널 아님 단언 연산자
+            + 더하기 연산자
+            * 배열 펼침 연산자
+            .kts 확장자
+            .. 연산자
+            -script 옵션
+            ?: 엘비스 연산자
+            ?. 안전 호출 연산자
+            @AfterClass 수명주기 메소드
+            @Autowired 어노테이션
+            @BeforeClass 어노테이션
+            @Component 어노테이션
+            @CsvSource 어노테이션
+            @Entity 어노테이션
+            @GeneratedValue 어노테이션
+            @Id 어노테이션
+            @JvmField 어노테이션
+            @JvmOverloads 어노테이션
+            @JvmStatic 어노테이션
+            @MethodSource 어노테이션
+            @Nonnull 어노테이션
+            @ParameterizedTest
+            @ParameterizedTest 어노테이션
+            @RestController
+            @TestInstance(Lifecycle.PER_CLASS) 어노테이션
+            @TestInstance 어노테이션
+            @Throws 어노테이션
+
+        * ㄱ
+            구조 분해
+            그레이들
+            그루비 DSL
+            기본 디스패처
+            기수
+            꼬리 재귀
+
+        * ㄴ
+            난수 생성
+            내장 디스패처
+            널 허용성
+            널 허용 타입
+            논리 판정 함수 closeTo
+            누적자
+
+        * ㄷ
+            다수의 속성으로 정렬
+            대괄호
+            데몬 스레드
+            동반 객체
+            동시성
+
+        * ㄹ
+            래퍼 타입
+            로컬 변수 타입 추론
+            리플렉션을 위한 kotlin-reflect
+
+        * ㅁ
+            맵
+            메이븐 빌드 도구
+            명령줄 컴파일러 설치
+            무한 시퀀스
+
+        * ㅂ
+            배열
+            변경 가능한 컬렉션 생성
+            변경 불가능한 컬렉션 생성
+            변경자
+            부수 효과
+            부호 없는 오른쪽 시프트
+            부호 있는 오른쪽 시프트
+            부호 있는 왼쪽 시프트 
+            비트 불리언 연산자
+            비트 시프트 연산자
+
+        * ㅅ
+            사용자 정의 대리자 만들기
+            사용자 정의 이터레이터
+            사용자 정의 획득자
+            서술 조건자
+            선문답
+            설정자
+            설정자 생성
+            속성 대리자
+            쇼트 서킷 평가
+            수열
+            숫자 리터럴에 밑줄(_)
+            스쿱
+            스프링 프레임워크
+            싱글톤 디자인패턴
+
+        * ㅇ
+            안전 타입 변환 연산자(as?)
+            연산자 중복
+            연산자 함수
+            영리한 타입 변환
+            오토박싱
+            윈도우
+            의존성 주입
+            이터레이터
+            이터레이터 디자인 패턴
+            읽기 전용 뷰
+            임시 변수
+
+        * ㅈ
+            자바 라이브러리 플러그인
+            자바스크립트 객체 표기법
+            자바 퍼시스턴스 API(JPA)
+            접근자
+            중간 연산
+            지연된 인스턴스
+            지연 시퀀스
+            지연 속성
+            지원 필드
+
+        * ㅊ
+            지연 초기화
+            최종 연산
+
+        * ㅋ
+            코루틴
+            코루틴 디버깅
+            코루틴 디스패처
+            코루틴 빌더
+            코루틴 취소
+            코루틴 컨텍스트에서 + 연산자를 중복
+            코틀린 DSL
+            코틀린 REPL
+            코틀린 라이브러리의 표준 Delegates 객체
+            코틀린 버전
+            코틀린 스크립트
+            코틀린 프로젝트 빌드
+            코틀린 플레이그라운드
+            클래스 대리자
+
+        * ㅌ
+            타입으로 컬렉션을 필터링
+
+        * ㅍ
+            파라미터화된 테스트
+            패키지 매니저
+            팩토리얼
+            프록시 디자인 패턴
+            피보나치 수
+
+        * ㅎ
+            함수 pow
+            함수형 프로그래밍
+            합성
+            회문
+            획득자
+
+        * A
+            accessor
+            accumulator
+            actual 키워드
+            all-open 플러그인
+            also 함수
+            and 연산자
+            apply 함수
+            Arguments 클래스
+            arrayOfNulls 팩토리 메소드
+            arrayOf 함수
+            asCoroutineDispatcher 함수
+            asList 함수
+            asSequence 함수
+            assertAll 함수
+            assertThat 함수
+            associateWith 함수
+            async 빌더 
+            as 연산자
+            autoboxing
+            AutoCloseable 인터페이스
+            await 함수
+
+        * B
+            backing field
+            Backing Property
+            bitwise shift
+            BufferedReader 클래스
+            BufferedWriter 클래스
+            bufferedWriter 함수
+
+        * C
+            cancelAndJoin 함수
+            chunked 함수
+            class delegate
+            ClosedRange 인터페이스
+            coerceIn 함수
+            companion object
+            Comparable 인터페이스
+            Comparator 클래스
+            compareBy 함수
+            component 함수
+            composition
+            concurrent
+            const 변경자
+            const와 val의 차이
+            copy 함수
+            coroutine
+            CoroutineContext 클래스
+            CoroutineDispatcher 클래스
+            CoroutineScope 인터페이스
+            coroutineScope 빌더
+            crossline
+
+        * D
+            data 키워드
+            Deferred
+            delay 함수
+            destructuring
+
+        * E
+            Elvis
+            emptyArray 팩토리 메소드
+            equals
+            Executable 인스턴스
+            executeAndReturnKey 메소드
+            Execute Around Method 디자인 패턴
+            ExecutorCoroutineDispatcher
+
+        * F
+            factorial
+            File 클래스
+            filter
+            filterIsInstance
+            filterIsInstanceTo
+            first 함수
+            fold 함수
+            forEachIndexed 함수
+            forEachLine 함수
+            for-in 루프
+
+        * G
+            generateSequence 함수 
+            getter
+            GlobalScope 객체
+            GraalVM
+            Gradle
+
+        * H
+            Hamcrest matcher
+
+        * I 
+            ifBlank 함수 
+            ifEmpty
+            IllegalStateException
+            IndexedValue 클래스
+            infix 키워드 
+            inline
+            intermediate operation
+            invoke 연산자 함수
+            inv 비트 연산자
+            IO 디스패처
+            isAtLeast 함수
+            isInitialized
+            Iterable 인터페이스
+            iterator
+
+        * J
+            JavaScript Object Notation
+            join 함수
+            JSON
+            Junit 5의 테스트 수명주기
+            junit-platform.properties 파일
+
+         * K
+            Koans
+            kotlinc-jvm
+            kotlinc 명령어
+            Kotlin Playground
+            kotlin-spring 플러그인
+            KotlinVersion 클래스
+            kotlinx-coroutines-android 의존성
+            kotlinx.coroutines.debug 시스템 속성
+
+        * L
+            lateinit과 lazy의 차이
+            lateinit 변경자
+            launch 빌더
+            LazyThreadSafetyMode 타입
+            lazy 대리자
+            let 영역 함수
+            listOf
+
+        * M
+            mapOf 함수
+            Maven
+            measureNanoTime 함수
+            measureTimeMillis
+            mutableListOf
+            matator
+
+        * N
+            none 함수
+            not-null assertion operator
+            NonNullBar
+
+        * O
+            object 키워드
+            ObservableProperty 클래스
+            observable 함수
+            open 키워드
+            operator 키워드
+            or
+            OutputStreamWriter
+            overloading
+
+        * P
+            package manager
+            Pair 클래스
+            palindrome
+            parallel 함수
+            predicate
+            progression
+            property delegate
+
+        * R
+            ReadOnlyProperty
+            ReadWriteProperty
+            reduce 대신 fold 사용
+            reduce 함수
+            reflection
+            repeat 함수
+            replace 함수
+            runBlocking 빌더
+            run 함수
+
+        * S
+            safe cast
+            Scoop
+            SDKMAN!
+            sequenceOf 함수
+            SequenceScope
+            setter 
+            short-circuit
+            smart cast
+            sortedWith
+            Stream 인터페이스
+            String? 타입
+            suspend
+            suspend 키워드
+
+        * T
+            tail recursion
+            tailrec 키워드
+            takeWhile 함수
+            take 함수
+            terminal operation
+            thread 함수
+            TODO 함수
+            to 함수
+            Triple
+
+        * U
+            use
+            useLines 함수
+
+        * V
+            val 키워드
+            vetoable 함수
+
+        * W
+            windowed 함수
+            withContext
+            withIndex 함수
+            withTimeoutOrNull
+            withTimeout 함수
+            wrapper
+            writer
+
+        * X
+            xor
+
+        * Y
+            yieldAll 함수
+            yield 중단 함수                                                                                         
+
+                                                                        

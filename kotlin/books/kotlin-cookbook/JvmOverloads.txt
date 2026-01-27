@@ -1,0 +1,59 @@
+자바를 위한 메소드 중복
+    1. 자바에서 각 파라미터의 값을 직접적으로 명시하지 않고 코틀린 함수 호출하기
+        가. 기본 파라미터가 정의된 코틀린 함수
+            fun addProduct(name : String, price : Double = 0.0, desc : String? = null) = 
+                "Adding product with $name, ${desc ?: "None"}, and " +
+                NumberFormat.getCurrencyInstance().format(price)
+
+        나. 코틀린에서 중복 함수 변형 호출하기
+            @Test
+            fun `check all overloads`() {
+                assertAll("Overloads called from Kotlin",
+                    { println(addProduct("Name", 5.0, "Desc")) }
+                    { println(addProduct("Name", 5.0)) }
+                    { println(addProduct("Name")) }
+                )
+            }
+
+        다. 자바에서 addProduct 함수 호출하기 (자바는 메소드 기본 인자를 지원하지 않음)            
+            @Test
+            void supplyAllArguments() {
+                System.out.println(OverloadsKt.addProduct("Name", 5.0, "Desc"));
+            }            
+
+        라. 자바에서 함수 중복 호출하기 (@JvmOverloads 어노테이션을 addProduct에 추가)
+            @Test   
+            void checkOverloads() {
+                assetAll("overloads called from Java",
+                    () -> System.out.println(OverloadsKt.addProduct("Name", 5.0, "Desc")),
+                    () -> System.out.println(OverloadsKt.addProduct("Name", 5.0)),
+                    () -> System.out.println(OverloadsKt.addProduct("Name")),
+                );
+            }
+
+        마. 중복된 생성자를 갖는 코틀린 클래스 (생성자 중복도 가능)
+            data class Product @JvmOverloads constructor(
+                val name : String,
+                val price : Double = 0.0,
+                val desc : String? = null
+            )    
+
+        바. 코틀린에서 Product 클래스 인스턴스화
+            @Test
+            internal fun `check overloaded Product constructor`() {
+                assertAll("Overloads called from Kotlin",
+                 { println(Product("Name", 5.0, "Desc")) }
+                 { println(Product("Name", 5.0)) }
+                 { println(Product("Name")) }
+                )
+            }   
+
+        사. 자바에서 Product 클래스 인스턴스화
+            @Test
+            void checkOverloadedProductCtor() {
+                assetAll("overloads called from Java",
+                    () -> System.out.println(new Product("Name", 5.0, "Desc")),
+                    () -> System.out.println(new Product("Name", 5.0)),
+                    () -> System.out.println(new Product("Name"))
+                );
+            } 
