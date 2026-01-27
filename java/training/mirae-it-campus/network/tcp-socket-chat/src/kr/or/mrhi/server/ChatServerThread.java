@@ -1,4 +1,4 @@
-package kr.or.mrhi;
+package kr.or.mrhi.server;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -46,14 +46,14 @@ public class ChatServerThread extends Thread {
 				String messageReceive = bufferedReader.readLine();
 
 				if (messageReceive == null) {
-					System.out.println("Å¬¶óÀÌ¾ğÆ®°¡ ¿¬°áÀ» Á¾·áÇß½À´Ï´Ù. " + "Å¬¶óÀÌ¾ğÆ® IP: "
-							+ this.socket.getInetAddress().getHostAddress() + ", Å¬¶óÀÌ¾ğÆ® Æ÷Æ®¹øÈ£: " + this.socket.getPort());
+					System.out.println("í´ë¼ì´ì–¸íŠ¸ê°€ ì—°ê²°ì„ ì¢…ë£Œí–ˆìŠµë‹ˆë‹¤. " + "í´ë¼ì´ì–¸íŠ¸ IP: "
+							+ this.socket.getInetAddress().getHostAddress() + ", í´ë¼ì´ì–¸íŠ¸ í¬íŠ¸ë²ˆí˜¸: " + this.socket.getPort());
 
 					synchronized (printWriterList) {
 						printWriterList.remove(printWriter);
 					}
 
-					String messageDisconnect = this.nickname + "´ÔÀÌ ÅğÀåÇß½À´Ï´Ù.";
+					String messageDisconnect = this.nickname + "ë‹˜ì´ í‡´ì¥í–ˆìŠµë‹ˆë‹¤.";
 					sendMessage(messageDisconnect);
 
 					break;
@@ -68,7 +68,7 @@ public class ChatServerThread extends Thread {
 						printWriterList.add(printWriter);
 					}
 
-					String messageJoin = this.nickname + "´ÔÀÌ ÀÔÀåÇß½À´Ï´Ù.";
+					String messageJoin = this.nickname + "ë‹˜ì´ ì…ì¥í–ˆìŠµë‹ˆë‹¤.";
 					System.out.println(messageJoin);
 					sendMessage(messageJoin);
 				} else if ("message".equals(tokens[0])) {
@@ -79,14 +79,14 @@ public class ChatServerThread extends Thread {
 						printWriterList.remove(printWriter);
 					}
 
-					String messageQuit = this.nickname + "´ÔÀÌ ÅğÀåÇß½À´Ï´Ù.";
+					String messageQuit = this.nickname + "ë‹˜ì´ í‡´ì¥í–ˆìŠµë‹ˆë‹¤.";
 					sendMessage(messageQuit);
 
 					break;
 				}
 			}
 		} catch (IOException e) {
-			System.out.println(this.nickname + "ÀÇ ¼ÒÄÏÀÌ ÀÌ»óÀÌ ÀÖ¾î¼­ Á¾·áµÇ¾ú½À´Ï´Ù.");
+			System.out.println(this.nickname + "ì˜ ì†Œì¼“ì´ ì´ìƒì´ ìˆì–´ì„œ ì¢…ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		} finally {
 			if (this.socket != null && !this.socket.isClosed()) {
 				try {

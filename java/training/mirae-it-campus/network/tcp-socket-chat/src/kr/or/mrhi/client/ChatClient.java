@@ -1,4 +1,4 @@
-package kr.or.mrhi;
+package kr.or.mrhi.client;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -27,17 +27,17 @@ public class ChatClient {
 		try {
 			socket = new Socket();
 			socket.connect(new InetSocketAddress(IP_SERVER, PORT_SERVER));
-			System.out.println("[Ã¤ÆÃ¹æ¿¡ ÀÔÀåÇß½À´Ï´Ù.]");
+			System.out.println("[ì±„íŒ…ë°©ì— ì…ì¥í–ˆìŠµë‹ˆë‹¤.]");
 
 			while (true) {
-				System.out.print("[´Ğ³×ÀÓÀ» ÀÔ·ÂÇÏ¼¼¿ä.]: ");
+				System.out.print("[ë‹‰ë„¤ì„ì„ ì…ë ¥í•˜ì„¸ìš”.]: ");
 				nickname = scanner.nextLine();
 
 				if (nickname.isEmpty() == false) {
 					break;
 				}
 
-				System.out.println("[´Ğ³×ÀÓÀº °ø¹é ¾øÀÌ ÇÑ ±ÛÀÚ ÀÌ»ó ÀÔ·ÂÇÏ¼¼¿ä.]");
+				System.out.println("[ë‹‰ë„¤ì„ì€ ê³µë°± ì—†ì´ í•œ ê¸€ì ì´ìƒ ì…ë ¥í•˜ì„¸ìš”.]");
 			}
 			scanner.close();
 
@@ -51,7 +51,7 @@ public class ChatClient {
 			ChatClientWindow chatClientWindow = new ChatClientWindow(nickname, socket);
 			chatClientWindow.show();
 		} catch (IOException e) {
-			System.out.println("[¼­¹ö Ãø¿¡ ¹®Á¦°¡ ¹ß»ıÇß½À´Ï´Ù.]");
+			System.out.println("[ì„œë²„ ì¸¡ì— ë¬¸ì œê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤.]");
 		}
 	}
 

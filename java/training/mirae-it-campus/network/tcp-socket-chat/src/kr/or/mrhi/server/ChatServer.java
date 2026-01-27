@@ -1,4 +1,4 @@
-package kr.or.mrhi;
+package kr.or.mrhi.server;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -30,8 +30,8 @@ public class ChatServer {
 		try {
 			serverSocket = new ServerSocket();
 			serverSocket.bind(new InetSocketAddress(ip, PORT));
-			System.out.println("[¿¬°áÀ» ±â´Ù¸³´Ï´Ù.] " + Thread.currentThread().getId() + "ÀÇ IP: " + ip + ", "
-					+ Thread.currentThread().getId() + "ÀÇ Æ÷Æ®¹øÈ£: " + PORT);
+			System.out.println("[ì—°ê²°ì„ ê¸°ë‹¤ë¦½ë‹ˆë‹¤.] " + Thread.currentThread().getId() + "ì˜ IP: " + ip + ", "
+					+ Thread.currentThread().getId() + "ì˜ í¬íŠ¸ë²ˆí˜¸: " + PORT);
 
 			while (true) {
 				Socket socket = serverSocket.accept();
@@ -41,8 +41,8 @@ public class ChatServer {
 
 				SocketAddress socketAddress = socket.getRemoteSocketAddress();
 				InetSocketAddress inetSocketAddress = (InetSocketAddress) socketAddress;
-				System.out.println("[¿¬°áÀ» ¼ö¶ôÇÕ´Ï´Ù.] " + "Å¬¶óÀÌ¾ğÆ®ÀÇ IP: " + inetSocketAddress.getHostString()
-						+ ", Å¬¶óÀÌ¾ğÆ®ÀÇ Æ÷Æ®¹øÈ£: " + inetSocketAddress.getPort());
+				System.out.println("[ì—°ê²°ì„ ìˆ˜ë½í•©ë‹ˆë‹¤.] " + "í´ë¼ì´ì–¸íŠ¸ì˜ IP: " + inetSocketAddress.getHostString()
+						+ ", í´ë¼ì´ì–¸íŠ¸ì˜ í¬íŠ¸ë²ˆí˜¸: " + inetSocketAddress.getPort());
 			}
 		} catch (IOException e) {
 			e.printStackTrace();

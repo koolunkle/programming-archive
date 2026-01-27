@@ -1,4 +1,4 @@
-package kr.or.mrhi;
+package kr.or.mrhi.client;
 
 import java.awt.BorderLayout;
 import java.awt.Button;
