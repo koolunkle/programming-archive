@@ -1,0 +1,50 @@
+/*
+    GraphQL Code Generator 명령을 설정하고 실행하면 지정된 스키마를 기준으로 
+    GraphQL 객체(User), 쿼리(GetUser), 변형(createUser)에 대한 타입스크립트 타입을 생성한다
+ */
+
+// type User = {
+//     id: ID!
+//     name: String!
+// }
+
+// type Query {
+//     getUser(id: ID!): User
+// }
+
+// type Mutation {
+//     createUser(name: String!): User!
+// }
+
+/*
+    GraphQL 스키마로부터 자동 생성된 타입스크립트 타입
+
+    export type Scalars = {
+    ID: { input: string; output: string; }
+    String: { input: string; output: string; }
+    };
+
+    export type User = {
+        __typename?: 'User';
+        id: Scalars['ID'];
+        name: Scalars['String'];
+    };
+
+    export type Query = {
+        __typename?: 'Query';
+        getUser?: Maybe<User>;
+    };
+
+    export type Mutation = {
+        __typename?: 'Mutation';
+        createUser?: Maybe<User>;
+    };
+
+    export type QueryGetUserArgs = {
+        id: Scalars['ID'];
+    };
+
+    export type MutationCreateUserArgs = {
+        name: Scalars['String'];
+    };
+*/

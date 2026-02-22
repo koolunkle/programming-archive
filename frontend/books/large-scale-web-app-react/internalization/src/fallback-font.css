@@ -1,0 +1,14 @@
+/* 기본(대체) 폰트 스택 */
+body {
+    font-family: 'Noto', 'Monotype SST', '...';
+}
+
+/* 아랍어 콘텐츠(RTL)에 관한 폰트 스택 */
+body[lang="ar"] {
+    font-family: 'Noto Naskh Arabic', 'Tahoma';
+}
+
+/* 히브리어 콘텐츠(RTL)에 관한 폰트 스택 */
+body[lang="he"] {
+    font-family: 'Frank Ruhl Libre', 'Arial Hebrew';
+}

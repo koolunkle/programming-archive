@@ -1,0 +1,39 @@
+# YAML을 사용해 작성한 OpenAPI 3.1.0 명세 예시
+openapi: 3.1.0
+info:
+  title: User API
+  version: 1.0.0
+paths:
+  /user:
+    get:
+      operationId: getUser
+      parameters:
+        - name: id
+          in: query
+          schema:
+            type: string
+          responses:
+            '200':
+              description: Successful response
+    post:
+      operationId: createUser
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+        responses:
+          '201':
+            description: User created
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: string 
+        name:
+          type: string
