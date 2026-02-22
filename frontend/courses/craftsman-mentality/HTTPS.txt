@@ -1,0 +1,6 @@
+Hypertext Transfer Protocol Secure (HTTPS)
+    Port: 443 Transport Layer Protocol: TCP
+    암호화를 사용한 HTTP 프로토콜
+    웹서버로부터 웹페이지 정보를 요청하고 받아옴
+    Hypertext Markup Language (HTML) 사용 
+    데이터가 암호화되어 전달되기 때문에 보안이 좋음

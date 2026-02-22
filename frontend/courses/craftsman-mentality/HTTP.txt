@@ -1,0 +1,6 @@
+Hypertext Transfer Protocol (HTTP)
+    Port: 80 Transport Layer Protocol: TCP
+    웹사이트 브라우징 프로토콜
+    웹서버에 웹페이지 정보를 요청(request)하고 웹서버는 응답(reply) 
+    Hypertext Markup Language (HTML)을 사용하여 정보 전달
+    데이터가 텍스트로 전달되기 때문에 보안이 취약

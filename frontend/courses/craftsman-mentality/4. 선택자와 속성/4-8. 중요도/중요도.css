@@ -1,0 +1,32 @@
+#demo {
+    background-color: yellow;
+    font-size: 30px;
+}
+
+.test {
+    background-color: aquamarine;
+    font-size: 100px !important;
+}
+
+p {
+    background-color: red;
+}
+
+p {
+    background-color: blue;
+    font-size: 30px;
+}
+
+/* Specificity(특이도)
+    스타일 규칙이 얼마나 특정한지를 나타냄
+    더 구체적인 규칙이 더 높은 특이도를 가지면 우선적으로 적용
+ */
+
+/* Importance(중요도)
+    '!important' 키워드가 지정된 스타일 규칙은
+    다른 모든 규칙보다 높은 중요도를 가짐
+ */
+
+/* Source Order(출처 순서)
+    나중에 나오는 규칙일수록 먼저 나온 규칙을 덮어쓴다(Cascading)
+ */

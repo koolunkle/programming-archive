@@ -1,0 +1,8 @@
+div>p {
+    color: aqua;
+    background-color: bisque;
+}
+
+div>section>p {
+    color: red;
+}

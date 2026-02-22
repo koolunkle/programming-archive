@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 에어리어</title>
+</head>
+
+<body>
+    <form>
+        <!-- input type: text, button, password, radio, checkbox, submit, file -->
+
+        <!-- input id: 문서 내에서 해당 요소를 고유하게 식별하기 위한 값으로, 주로 스타일링이나 자바스크립트에서 사용 -->
+        <!-- input name: 서버로 데이터를 전송할 때 해당 입력 요소의 식별자 정의 -->
+        <!-- input id vs name
+            폼 제출과 관련된 데이터 전송을 위해 name 사용
+            스타일링이나 동적인 조작을 위해 id 사용
+            자바스크립트를 사용하여 특정 입력 요소에 접근하거나 조작할 때 id 필요, 고유한 id 값 부여에 주의 
+        -->
+
+        <!-- input value: 입력 요소의 초기값 정의 -->
+        <label for="feedback">피드백</label>
+        <textarea id="feedback" name="feedback" rows="30" cols="30"></textarea>
+
+        <input type="submit" id="submit" name="test_submit" value="submit">
+    </form>
+</body>
+
+</html>

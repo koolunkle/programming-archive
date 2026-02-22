@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 5px; /* row-gap or column-gap */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#special {
+    width: 200px;
+    height: 400px;
+}

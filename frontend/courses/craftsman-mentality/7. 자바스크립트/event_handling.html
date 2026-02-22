@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>To Do</h1>
+        <input type="text" id="text">
+        <button id="click">Click</button>
+        <button id="clear">Clear</button>
+    </div>
+
+    <script>
+        const container = document.getElementById('container');
+        const text = document.getElementById('text');
+        const clickButton = document.getElementById('click');
+        const clearButton = document.getElementById('clear');
+
+        // eventType: click, DOMContentLoaded, scroll, submit
+        clickButton.addEventListener('click', function () {
+            clickButton.textContent = 'clicked';
+            clickButton.style.color = 'blue';
+            // console.log(text.value);
+
+            const p = document.createElement('p');
+            p.textContent = text.value;
+            container.appendChild(p);
+        });
+
+        clearButton.addEventListener('click', function () {
+            const p = document.querySelectorAll('div>p');
+            console.log(p);
+            for (let i = 0; i < p.length; i++) {
+                p[i].remove();
+            }
+        });
+    </script>
+</body>
+
+</html>

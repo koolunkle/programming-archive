@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <h1 id="page-title" class="first">Hello, World!</h1>
+    <h1>Hello, World!</h1>
+
+    <script>
+        // getElementById
+        // const pageTitle = document.getElementById('page-title');
+
+        // querySelector
+        // const pageTitle = document.querySelector('h1');
+
+        // querySelectorAll > Node List 형태
+        // const pageTitle = document.querySelectorAll('h1');
+        // console.log(pageTitle);
+
+        // getElementByClassName > Node List 형태
+        // const pageTitle = document.getElementsByClassName('first');
+
+        // getElementByTagName > Node List 형태
+        const pageTitle = document.getElementsByTagName('h1');
+
+        // 조작하기
+        // pageTitle.textContent = 'Hello, JavaScript!';
+        pageTitle[0].textContent = 'Hello, JavaScript!';
+        pageTitle[1].textContent = 'Hello, JavaScript!';
+    </script>
+</body>
+
+</html>

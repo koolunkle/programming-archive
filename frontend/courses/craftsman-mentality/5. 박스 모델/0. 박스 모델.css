@@ -1,0 +1,8 @@
+.box {
+    background-color: bisque;
+    width: 50%;
+    height: 50%;
+    padding: 50px;
+    border: 10px solid aqua; /* solid, dotted, dashed */
+    margin: 10px;
+}

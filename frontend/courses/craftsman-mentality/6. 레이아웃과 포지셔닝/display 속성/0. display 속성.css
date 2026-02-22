@@ -1,0 +1,9 @@
+.container {
+    width: 50%;
+}
+
+img {
+    display: inline-block; /* block, inline, inline-block, none */
+    width: 150px;
+    height: 150px;
+}

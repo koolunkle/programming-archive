@@ -1,0 +1,11 @@
+블록 요소(Block-level Elements)
+- 부모 요소의 가로폭 전체를 차지하며, 세로로 쌓임
+- 기본적으로 새로운 줄에서 시작
+- 너비(width), 높이(height), 여백(margin, border, padding) 등을 설정할 수 있음
+- div, p, h1~h6, ul, ol, li, form 등이 해당
+
+인라인 요소(Inline-level Elements)
+- 콘텐츠의 일부분만 차지하며, 요소가 포함한 콘텐츠의 크기만큼만 가로폭을 가짐
+- 새로운 줄에서 시작하지 않고, 줄 중간에 추가
+- 너비(width), 높이(height), 상하 여백(margin-top, margin-bottom, padding-top, padding-bottom), 밑줄(text-decoration) 등의 속성이 설정되더라도 무시될 수 있음
+- span, a, strong, em, img 등이 인라인 요소에 해당

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>간단한 양식</title>
+</head>
+
+<body>
+    <form>
+        <!-- 텍스트 입력 -->
+        <label for="user_name">사용자 이름: </label>
+        <input type="text" id="user_name" name="user_name" placeholder="user_name">
+
+        <!-- 비밀번호 입력 -->
+        <label for="password">비밀번호: </label>
+        <input type="password" id="password" name="password" placeholder="password">
+
+        <!-- 라디오 버튼 -->
+        <p>성별</p>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">남성</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">여성</label>
+
+        <br>
+
+        <!-- 체크박스 -->
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">구독</label>
+
+        <input type="checkbox" id="likey" name="likey">
+        <label for="likey">좋아요</label>
+
+        <br>
+
+        <!-- 드롭다운 선택 -->
+        <label for="country">국가</label>
+        <select id="country" name="country">
+            <option value="kr">한국</option>
+            <option value="us">미국</option>
+            <option value="jp">일본</option>
+        </select>
+
+        <br>
+
+        <!-- 텍스트 에어리어 -->
+        <label for="message">메시지</label>
+        <textarea id="message" name="message" rows="10" cols="30"></textarea>
+
+        <br>
+
+        <!-- 제출 버튼 -->
+        <input type="submit" id="submit" name="submit" value="제출">
+    </form>
+</body>
+
+</html>
+
+<!-- 
+user_name=koolunkle
+&password=1234
+&gender=male
+&subscribe=on
+&likey=on
+&country=kr
+&message=안녕
+submit=제출
+-->
