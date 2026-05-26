@@ -1,11 +1,11 @@
-package util;
+package kr.or.mrhi.util;
 
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import model.Seafood;
+import kr.or.mrhi.model.Seafood;
 
 public class Library {
 

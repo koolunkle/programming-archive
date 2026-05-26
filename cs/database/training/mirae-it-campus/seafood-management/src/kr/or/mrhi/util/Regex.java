@@ -1,4 +1,4 @@
-package util;
+package kr.or.mrhi.util;
 
 public enum Regex {
 	ID(1), NAME(2), EVALUATION(3), ORDER(4), MAX_MIN(5), PRINT(6), SEARCH(7);

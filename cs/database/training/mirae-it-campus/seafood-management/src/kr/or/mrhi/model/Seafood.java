@@ -1,4 +1,4 @@
-package model;
+package kr.or.mrhi.model;
 
 import java.util.Date;
 import java.util.Objects;
