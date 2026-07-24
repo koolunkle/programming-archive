@@ -8,7 +8,7 @@
 * **languages/java/** : Java language syntax and fundamentals.
 * **languages/kotlin/** : Kotlin language syntax and fundamentals.
 * **languages/dart/** : Dart language syntax and fundamentals.
-* **cs/** : Computer Science fundamentals.
+* **cs/** : Computer Science & DevOps fundamentals (Database, Networking, Docker, etc.).
 
 ## Tech Stack
 
@@ -20,6 +20,7 @@
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 
-### Computer Science
+### Computer Science & DevOps
 ![Database](https://img.shields.io/badge/Database-4479A1?style=flat-square&logo=databricks&logoColor=white)
 ![Networking](https://img.shields.io/badge/Networking-00599C?style=flat-square&logo=wi-fi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
