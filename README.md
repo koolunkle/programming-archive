@@ -1,4 +1,4 @@
-# Programming Fundamentals
+# Programming Lab
 
 > **Personal collection of software engineering fundamentals and language syntax.**
 
