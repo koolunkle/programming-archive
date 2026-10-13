@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Example project build output
+build/
+.gradle/
+.kotlin/
+out/
