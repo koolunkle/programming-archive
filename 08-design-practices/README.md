@@ -19,6 +19,8 @@
 ## API Design - Lessons from Android API Council
 
 > *APIs: How Hard Can They Be?* — Aurimas Liutikas, Alan Viverette · [PDF](<API Design - Lessons from Android API Council.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.17–45, 54–83, 91–92
 
 **요약** — Android API Council에서 10년 가까이 API를 심사한 두 사람이 정리한 좋은 API의 원칙, 실제 사고 사례, 자동화 도구.
 
@@ -43,6 +45,8 @@
 ## Anti-patterns - Kotlin Worst Practices
 
 > *Kotlin Worst Practices — How to Maximize Your Hassle* — Liliia Abdulina · [PDF](<Anti-patterns - Kotlin Worst Practices.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.15–25, 37–51, 59–75
 
 **요약** — 가상의 개발자 "Katlin"이 Kotlin 관용구를 열정적으로 잘못 쓰며 겪는 버그들.
 
@@ -63,6 +67,8 @@
 ## Data-Oriented Design
 
 > *Good Old Data* — Andrey Zaytsev · [PDF](<Data-Oriented Design.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.11–13, 19–38, 42, 49–52
 
 **요약** — Fleet 아키텍트가 Clojure 경험에서 얻은 데이터 중심 설계를 Kotlin으로 구현하는 방법. 데이터의 정의 → Kotlin 구현 → 그로부터 나오는 능력(emergence).
 
@@ -86,6 +92,8 @@
 ## Systems Thinking - Well-Functioning Systems
 
 > *Qualities of a Well-Functioning System* — Diana Montalion · [PDF](<Systems Thinking - Well-Functioning Systems.pdf>)
+>
+> 예제 코드: 없음 (코드 없이 개념 중심)
 
 **요약** — 『Learning Systems Thinking』 저자가 말하는 잘 동작하는 시스템의 세 가지 성질과, 지식이 흐르는 조직.
 

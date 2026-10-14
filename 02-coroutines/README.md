@@ -21,6 +21,8 @@
 ## Structured Concurrency - in Ktor
 
 > *Coroutines and Structured Concurrency in Ktor* — Simon Vergauwen · [PDF](<Structured Concurrency - in Ktor.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.4–10, 16–22
 
 **요약** — Ktor의 `Application`과 `RoutingCall`이 각각 `CoroutineScope`라는 사실에서 출발해, 요청 처리 중 병렬 작업과 백그라운드 작업을 안전하게 다루는 법.
 
@@ -43,6 +45,8 @@
 ## Flow - Lifecycle-aware Collection on Android
 
 > *Collect Like a Pro: a deep dive on the Android lifecycle-aware coroutines APIs* — Manuel Vivo · [PDF](<Flow - Lifecycle-aware Collection on Android.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.25–26, 39–56, 70–90, 100–114 · KMP 사용 예 [joreilly/Confetti](https://github.com/joreilly/Confetti), [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace)
 
 **요약** — 앱이 백그라운드일 때 Flow 수집을 멈추는 API 세 가지를 쓰는 법과, 그 **구현을 직접 따라가며** 코루틴 빌더를 익히는 발표.
 
@@ -67,6 +71,8 @@
 ## Debugging - Performance Tuning
 
 > *Taming Asynchronous Beasts: Debugging and Performance Tuning in a Coroutine World* — Marcin Moskała · [PDF](<Debugging - Performance Tuning.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–13, 20–30 · 도구 [reactor/BlockHound](https://github.com/reactor/BlockHound)
 
 **요약** — 코루틴 환경에서의 관측(로그·컨텍스트) → 디버깅 → 측정·최적화(dispatcher, 동시성 제한, 취소) 체크리스트.
 
@@ -91,6 +97,8 @@
 ## Debugging - IntelliJ Coroutine Debugger
 
 > *Coroutine Debugging in IntelliJ IDEA* — Alexey Merkulov · [PDF](<Debugging - IntelliJ Coroutine Debugger.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.2–8, 12–53 (IDE 화면 캡처)
 
 **요약** — 2023년까지 사실상 `println`밖에 없던 코루틴 디버깅이 IntelliJ에서 어떻게 개선됐는지와 stepping 구현 원리.
 
@@ -111,6 +119,8 @@
 ## Swift Concurrency - Compared to Coroutines
 
 > *Swift concurrency for curious Kotliners* — Nikita Bobko · [PDF](<Swift Concurrency - Compared to Coroutines.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–56 (Kotlin ↔ Swift 대조 코드)
 
 **요약** — Swift concurrency는 Kotlin 코루틴과 놀랄 만큼 비슷하지만, Swift 6 strict mode는 **data race를 컴파일 타임에 막는다**는 결정적 차이가 있다.
 

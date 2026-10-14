@@ -23,6 +23,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## AI Basics - Getting Started for Kotlin Devs
 
 > *From 0 to h-AI-ro: high-speed track to AI for Kotlin developers* — Urs Peter · [PDF](<AI Basics - Getting Started for Kotlin Devs.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.9, 16, 19, 27, 32, 37–55, 60–70
 
 **요약** — 이탈리안 레스토랑 챗봇 예제로 RAG → function calling → MCP를 차례로 쌓아 올리는 개념 정리.
 
@@ -45,6 +47,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## MCP - Model Context Protocol SDK
 
 > *Model Context Protocol in Kotlin* — Alexander Sysoev · [PDF](<MCP - Model Context Protocol SDK.pdf>)
+>
+> 예제 코드: [Mr3zee/kotlinconf-app](https://github.com/Mr3zee/kotlinconf-app/blob/main/MCP.md) (KotlinConf 앱에 MCP 서버를 붙인 예) · 슬라이드 p.6–21, 46–59
 
 **요약** — MCP를 "LLM을 위한 HTTP"로 설명하고 Kotlin SDK로 서버를 만드는 라이브 데모 중심 발표.
 
@@ -66,6 +70,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## LangChain4j - with Quarkus
 
 > *LangChain4j with Quarkus* — Max Rydahl Andersen, Konstantin Pavlov · [PDF](<LangChain4j - with Quarkus.pdf>)
+>
+> 예제 코드: 슬라이드 p.9, 13–23 · 확장 [quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j), [quarkiverse/quarkus-mcp-server](https://github.com/quarkiverse/quarkus-mcp-server)
 
 **요약** — 인터페이스 선언만으로 AI 서비스를 만드는 quarkus-langchain4j와, LLM 호출을 mock하는 테스트 방법.
 
@@ -88,6 +94,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## Agents - Koog Framework
 
 > *Building AI Agents in Kotlin* — Vadim Briliantov · [PDF](<Agents - Koog Framework.pdf>)
+>
+> 예제 코드: [JetBrains/koog](https://github.com/JetBrains/koog) (발표 대상 프레임워크) · 슬라이드 p.76–85, 124–128, 135–148
 
 **요약** — JetBrains의 오픈소스 에이전트 프레임워크 Koog. 에이전트 = **Strategy + Tools + Model(s)**.
 
@@ -114,6 +122,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## Agents - LLM App Evaluation Platform
 
 > *Building an Agentic Platform with Kotlin* — Patrick Whelan · [PDF](<Agents - LLM App Evaluation Platform.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–10 · 프레임워크 [Eclipse LMOS Arc](https://eclipse.dev/lmos/arc2/), [a2a-4k/a2a-4k](https://github.com/a2a-4k/a2a-4k)
 
 **요약** — 월 50만 대화를 처리하는 멀티 테넌트 고객 지원 봇의 구조와, "가장 빠르게 피드백 루프를 돌리는 시스템이 최고"라는 운영 원칙.
 
@@ -138,6 +148,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## AI Bot - Bluesky Stream Analysis
 
 > *From Data to Insights: Building a Bluesky Bot powered by AI* — Raphael De Lio · [PDF](<AI Bot - Bluesky Stream Analysis.pdf>)
+>
+> 예제 코드: 없음 (슬라이드에는 아키텍처만, 코드는 라이브 데모)
 
 **요약** — 분당 ~2,200건의 Bluesky 게시물을 실시간 분류·집계하는 봇. 핵심은 **LLM 호출을 embedding 유사도로 대체**하는 기법들.
 
@@ -161,6 +173,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## Migration - Java to Kotlin with AI at Uber
 
 > *Large Scale Changes with AI: Migrating millions of lines of Java to Kotlin at Uber* — Ty Smith · [PDF](<Migration - Java to Kotlin with AI at Uber.pdf>)
+>
+> 예제 코드: 슬라이드 p.31–41 · 도구 [fbsamples/kotlin_ast_tools](https://github.com/fbsamples/kotlin_ast_tools)
 
 **요약** — 수백만 줄 Java→Kotlin 전환을 분산 수작업 → 중앙 자동화 → LLM+AST → 에이전트로 발전시킨 과정. 예상 완료 시점이 2033 → 2029 → 2028 → 2027로 당겨짐.
 
@@ -184,6 +198,8 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 ## Data Analysis - Finance with DataFrame & Kandy
 
 > *Data Analysis for Finance in Kotlin* — Enrique López-Mañas · [PDF](<Data Analysis - Finance with DataFrame & Kandy.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.36–91 · 라이브러리 [Kotlin/dataframe](https://github.com/Kotlin/dataframe), [Kotlin/kandy](https://github.com/Kotlin/kandy)
 
 **요약** — R·Python이 장악한 재무 데이터 분석을 Kotlin Notebook + DataFrame + Kandy로 해보고 생태계를 비교.
 

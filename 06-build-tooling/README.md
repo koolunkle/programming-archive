@@ -21,6 +21,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Compatibility - JVM Target & Library Versions
 
 > *Kotlin compatibility crash course* — Martin Bonnin · [PDF](<Compatibility - JVM Target & Library Versions.pdf>)
+>
+> 예제 코드: 슬라이드 p.8–32, 47–74 · 발표자 플러그인 [GradleUp/compat-patrouille](https://github.com/GradleUp/compat-patrouille)
 
 **요약** — "컴파일될 때까지 Java 버전을 바꿔 붙인다"를 끝내기 위한 Java·Kotlin·Android 버전 플래그 총정리.
 
@@ -45,6 +47,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Gradle - Scalable Setup Practices
 
 > *Getting your Gradle setup right, at the right time* — Marcin Mycek · [PDF](<Gradle - Scalable Setup Practices.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–12 (빌드 스크립트·version catalog)
 
 **요약** — 좋은 Gradle 구성 요소를 "언제" 도입할지에 대한 JetBrains의 권장 시점.
 
@@ -63,6 +67,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Gradle - Fast Inner Dev Loops
 
 > *Fast inner dev loops for Kotlin Gradle builds* — Alex Semin, Rodrigo Oliveira · [PDF](<Gradle - Fast Inner Dev Loops.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.10, 14, 21, 31–43
 
 **요약** — Gradle 팀이 말하는 빠른 반복 개발의 핵심: configuration cache와 그 다음 단계인 isolated projects.
 
@@ -84,6 +90,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Static Analysis - KtLint & Detekt
 
 > *Code Quality at Scale: Future-Proof Your Android Codebase with KtLint and Detekt* — Tristan Hamilton · [PDF](<Static Analysis - KtLint & Detekt.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.24–36, 52–78, 83–122, 136–143 (커스텀 detekt 룰은 p.86–122)
 
 **요약** — 포맷팅·정적 분석을 넘어, **타입 해석을 쓰는 detekt 커스텀 룰**로 R8 full mode를 안전하게 켜고 아키텍처 규칙을 강제한 HubSpot 사례.
 
@@ -106,6 +114,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Amper - Latest Updates
 
 > *What's new in Amper* — Dmitry Savvinov · [PDF](<Amper - Latest Updates.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.33–39, 50–60
 
 **요약** — JetBrains의 실험적 빌드 도구 Amper가 추구하는 비전과, 이를 가능하게 하는 "toolable" 빌드 설계.
 
@@ -124,6 +134,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## Buck2 - Building Kotlin & Android
 
 > *Build your Kotlin and Android apps with Buck2* — Sergei Rybalkin · [PDF](<Buck2 - Building Kotlin & Android.pdf>)
+>
+> 예제 코드: 슬라이드 p.5–6, 17–18 · 도구 [facebook/buck2](https://github.com/facebook/buck2)
 
 **요약** — Meta의 Android 앱을 빌드하는 오픈소스 빌드 시스템 Buck2의 구조와 Kotlin 지원.
 
@@ -144,6 +156,8 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 ## klibs.io - Kotlin Package Index
 
 > *Klibs.io — the dream of creating a Kotlin Package Index* — Ignat Beresnev · [PDF](<klibs.io - Kotlin Package Index.pdf>)
+>
+> 예제 코드: 없음 (코드 없이 서비스·데이터 모델 소개 중심)
 
 **요약** — KMP 라이브러리 검색 사이트 klibs.io를 만들며 마주친 "라이브러리란 무엇인가" 문제.
 

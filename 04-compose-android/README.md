@@ -23,6 +23,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Custom UI - Building Complex Layouts
 
 > *Creative UIs with Compose* — Chris Horner · [PDF](<Custom UI - Building Complex Layouts.pdf>)
+>
+> 예제 코드: [chris-horner/persona-im](https://github.com/chris-horner/persona-im)
 
 **요약** — 평면 디자인의 획일성에 대한 문제 제기와 함께, 게임(Persona 5) 메신저 UI를 Compose로 그대로 재현하는 과정.
 
@@ -44,6 +46,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Animation - AnimationSpec & Easing
 
 > *The Easing Symphony: AnimationSpec in detail!* — Nicole Terc · [PDF](<Animation - AnimationSpec & Easing.pdf>)
+>
+> 예제 코드: [nicole-terc/easing-symphony](https://github.com/nicole-terc/easing-symphony)
 
 **요약** — 음악 시각화(파형·진폭·주파수)를 예제로 `AnimationSpec`과 `Easing`의 역할을 구분하고, 둘 다 직접 만들어 보는 발표. 원본 KEY의 데모 영상 18개는 PDF에 없다.
 
@@ -66,6 +70,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Accessibility - Semantics & Accessibility Scanner
 
 > *Building Inclusive Jetpack Compose Apps* — Vanessa Johnson · [PDF](<Accessibility - Semantics & Accessibility Scanner.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.27–44
 
 **요약** — TalkBack 사용자 관점에서 Compose의 semantics tree를 의도대로 구성하는 법과 흔한 실수.
 
@@ -87,6 +93,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Architecture Components - Decoupling for KMP
 
 > *Lessons learned decoupling Architecture Components from platform specific code* — Jeremy Woods, Marcello Galhardo · [PDF](<Architecture Components - Decoupling for KMP.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.30–36, 55–79, 90–107, 122–130, 148–170
 
 **요약** — AndroidX Architecture Components 팀이 기존 라이브러리(SavedState)를 KMP로 옮긴 방법과 새 라이브러리(NavigationEvent)를 KMP로 새로 만든 방법의 비교.
 
@@ -109,6 +117,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Hot Reload - How It Was Built
 
 > *Implementing Compose Hot Reload* — Sebastian Sellmair · [PDF](<Hot Reload - How It Was Built.pdf>)
+>
+> 예제 코드: 슬라이드 p.26–56 · 도구 저장소 [JetBrains/compose-hot-reload](https://github.com/JetBrains/compose-hot-reload)
 
 **요약** — "Kotlin에선 불가능"으로 여겨지던 Compose Hot Reload를 ClassLoader 실험 → JetBrains Runtime → Compose 런타임 → 컴파일러 순서로 풀어낸 엔지니어링 여정.
 
@@ -132,6 +142,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Compose for Desktop - Inside Android Studio & IntelliJ
 
 > *Project Sparkles: How Compose for Desktop is changing Android Studio and IntelliJ* — Chris Sinco, Sebastiano Poggi · [PDF](<Compose for Desktop - Inside Android Studio & IntelliJ.pdf>)
+>
+> 예제 코드: 없음 (코드 없이 제품 개발 사례 중심)
 
 **요약** — Android Studio의 Swing UI를 Compose for Desktop + **Jewel**(IntelliJ 테마 컴포넌트)로 바꿔 가는 Google·JetBrains 공동 프로젝트.
 
@@ -149,6 +161,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## Prototyping - Compose in Kotlin Notebooks
 
 > *Compose Prototyping in Kotlin Notebooks* — Christian Melchior · [PDF](<Prototyping - Compose in Kotlin Notebooks.pdf>)
+>
+> 예제 코드: [cmelchior/notebook-compose-kotlinconf2025](https://github.com/cmelchior/notebook-compose-kotlinconf2025) (발표 노트북 포함)
 
 **요약** — Kotlin Notebook을 Compose UI 놀이터로 쓰는 시도. 데모 중심이며 발표 시점엔 개발 중인 기능.
 
@@ -165,6 +179,8 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 ## VR - Compose on Meta Quest
 
 > *Building immersive VR apps for Meta Quest with Jetpack Compose* — Samuel Gebre Yohannes · [PDF](<VR - Compose on Meta Quest.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.34–53, 60–80, 96–112
 
 **요약** — 기존 Android 앱(KotlinConf 앱)을 Meta Spatial SDK로 Meta Quest용 몰입형 앱으로 확장하기.
 

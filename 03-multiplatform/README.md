@@ -33,6 +33,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### AWS - Scaling a Massive KMP SDK
 
 > *Blueprints for Scale: What AWS Learned Building a Massive Multiplatform Project* — Ian Botsford, Matas Lauzadis · [PDF](<case-studies/AWS - Scaling a Massive KMP SDK.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.6–8, 21–49
 
 **요약** — 499개 모듈, 860만 줄(98% 생성 코드), 8개 타깃, 주 5회 릴리스하는 AWS SDK for Kotlin의 설계 원칙 다섯 가지.
 
@@ -52,6 +54,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Google Workspace - Deploying KMP
 
 > *Deploying Kotlin Multiplatform at Google Workspace* — Jason Parachoniak, Troels Lund · [PDF](<case-studies/Google Workspace - Deploying KMP.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.16, 23–24
 
 **요약** — J2ObjC로 10년 넘게 로직을 공유해 온 Google Docs가 Kotlin/Native로 전환한 1년간의 A/B 실험 결과.
 
@@ -72,6 +76,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### X - Rewriting Android with KMP
 
 > *One Codebase, Three Platforms: X's Experience with Kotlin Multiplatform* — Arkadii Ivanov, Eric Denman · [PDF](<case-studies/X - Rewriting Android with KMP.pdf>)
+>
+> 예제 코드: 없음 (코드 없이 아키텍처·사례 중심)
 
 **요약** — 축소된 팀이 X Android를 전면 재작성(X-Lite)하면서 KMP를 데이터 계층부터 적용한 경험.
 
@@ -90,6 +96,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### McDonalds - Shared Navigation
 
 > *Leveraging KMP for navigation in the McDonalds App* — Cas van Luijtelaar, Anthony Bassey · [PDF](<case-studies/McDonalds - Shared Navigation.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.7–21
 
 **요약** — 62개 시장, 코드베이스 75%가 KMP인 McDonald's 앱에서 **내비게이션 결정까지 공유**하되 네이티브 스택은 건드리지 않는 방법.
 
@@ -107,6 +115,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### RevenueCat - Wrapping Native SDKs
 
 > *Making native SDKs Multiplatform at RevenueCat* — Joop Korteweg · [PDF](<case-studies/RevenueCat - Wrapping Native SDKs.pdf>)
+>
+> 예제 코드: 슬라이드 p.9, 13–26 · 발표 대상 SDK [RevenueCat/purchases-kmp](https://github.com/RevenueCat/purchases-kmp)
 
 **요약** — 기존 Android·iOS SDK를 다시 쓰지 않고 위에서부터 감싸 KMP SDK를 만들고, 전이 iOS 의존성과 리소스 문제를 푼 과정.
 
@@ -126,6 +136,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Logistics - Sharing Business Rules
 
 > *Kotlin Multiplatform's Cross-Platform Brilliance* — Anshika Koul · [PDF](<case-studies/Logistics - Sharing Business Rules.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.14–18
 
 **요약** — 물류 회사(Posten Bring)에서 흩어진 배송 규칙(위험물, 부재 배송 등)을 KMP 라이브러리로 모아 JVM 백엔드와 JS 프론트엔드에 배포.
 
@@ -142,6 +154,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Fintech - Two Years to 55% Shared Code
 
 > *Two Years with Kotlin Multiplatform: From Zero to 55% Shared Code* — Rodrigo Sicarelli · [PDF](<case-studies/Fintech - Two Years to 55% Shared Code.pdf>)
+>
+> 예제 코드: 없음 (코드 없이 조직·도입 사례 중심)
 
 **요약** — 브라질 핀테크 Stone이 세 앱의 기능 75%가 같은데 전 앱 배포에 평균 두 달 걸리던 문제를 KMP + Compose Multiplatform 플랫폼 팀으로 해결한 2년.
 
@@ -164,6 +178,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Compose Multiplatform - iOS Stable Release
 
 > *Compose Multiplatform for iOS* — Sebastian Aigner · [PDF](<ios/Compose Multiplatform - iOS Stable Release.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.6, 11, 24, 47–52
 
 **요약** — Compose Multiplatform 1.8에서 iOS가 stable(API 안정·호환성 보장)이 된 것과 그 생태계.
 
@@ -183,6 +199,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Interop Patterns - Swift, SKIE, Compose
 
 > *Kotlin and Compose Multiplatform patterns for iOS interop* — John O'Reilly · [PDF](<ios/Interop Patterns - Swift, SKIE, Compose.pdf>)
+>
+> 예제 코드: 발표자 샘플 [joreilly/Confetti](https://github.com/joreilly/Confetti), [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace), [joreilly/BikeShare](https://github.com/joreilly/BikeShare) 외 다수 · 슬라이드 p.14–43, 48–113, 119–138
 
 **요약** — Swift↔Kotlin interop의 모든 경로를 실제 오픈소스 앱(PeopleInSpace, Confetti 등) 예제로 정리한 카탈로그.
 
@@ -201,6 +219,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Swift Export - Internals
 
 > *Swift Export - a peek under the hood* — Artem Olkov · [PDF](<ios/Swift Export - Internals.pdf>)
+>
+> 예제 코드: 공식 샘플 [Kotlin/swift-export-sample](https://github.com/Kotlin/swift-export-sample) · 슬라이드 p.14–47, 75–85, 96–141
 
 **요약** — Objective-C를 거치지 않고 Kotlin을 Swift에서 직접 호출하게 하는 Swift Export의 사용법과 내부 구조. 2.2.20 실험적 출시.
 
@@ -225,6 +245,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Runtime - Object Lifecycle & Memory
 
 > *The Life and Death of a Kotlin/Native Object* — Troels Lund · [PDF](<native/Runtime - Object Lifecycle & Memory.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–30, 59–74, 118–134
 
 **요약** — Kotlin/Native 객체가 할당되고, GC에 의해 표시·회수되고, ObjC/Swift 경계를 넘을 때 일어나는 일.
 
@@ -244,6 +266,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### Dependency Management
 
 > *Dependencies and Kotlin/Native* — Tadeas Kriz · [PDF](<native/Dependency Management.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.7–9, 16 (의존성 선언 조각, 나머지는 다이어그램)
 
 **요약** — JVM의 jar/classpath 모델과 Darwin 네이티브의 정적·동적 라이브러리 링크 모델을 비교하고, Kotlin/Native가 그 사이에서 겪는 문제.
 
@@ -263,6 +287,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ### macOS Screen Saver - Native App Example
 
 > *Building a macOS screen saver with Kotlin* — Márton Braun · [PDF](<native/macOS Screen Saver - Native App Example.pdf>)
+>
+> 예제 코드: [zsmb13/KotlinLogo-ScreenSaver](https://github.com/zsmb13/KotlinLogo-ScreenSaver) · 슬라이드 p.10–25, 32–41, 49–55
 
 **요약** — Swift 셸 하나에 로직은 모두 Kotlin/Native로 쓴 macOS 화면 보호기. 플랫폼 API interop 실전 예제.
 
@@ -281,6 +307,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ## Dependency Injection - Scaling KMP Projects
 
 > *Scale your Kotlin Multiplatform projects using dependency injection* — Ralf Wondratschek · [PDF](<Dependency Injection - Scaling KMP Projects.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–209 전반 · 라이브러리 [evant/kotlin-inject](https://github.com/evant/kotlin-inject), [amzn/kotlin-inject-anvil](https://github.com/amzn/kotlin-inject-anvil)
 
 **요약** — Amazon에서 Dagger+Anvil을 KMP로 옮길 수 없어 **kotlin-inject-anvil**을 만든 배경과, 수동 DI에서 컴파일 타임 DI까지의 단계별 진화.
 
@@ -301,6 +329,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ## Library Development - Multiplatform Settings
 
 > *Multiplatform Settings: A case study in Multiplatform library development* — Russell Wolf · [PDF](<Library Development - Multiplatform Settings.pdf>)
+>
+> 예제 코드: [russhwolf/multiplatform-settings](https://github.com/russhwolf/multiplatform-settings) (발표 대상 라이브러리) · 슬라이드 p.13–23, 26–27, 33–39
 
 **요약** — 2018년 Kotlin/Native 기술 프리뷰 시절부터 지금까지 가장 오래된 KMP 라이브러리 중 하나를 유지해 온 설계 결정의 역사.
 
@@ -321,6 +351,8 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 ## Wasm & Compose for Web - Current State
 
 > *State of Kotlin/Wasm and Compose Multiplatform for Web on Modern Browsers* — Pamela Hill · [PDF](<Wasm & Compose for Web - Current State.pdf>)
+>
+> 예제 코드: 슬라이드 p.3–35 · 템플릿 [Kotlin/kotlin-wasm-browser-template](https://github.com/Kotlin/kotlin-wasm-browser-template), 실제 앱 [JetBrains/kotlinconf-app](https://github.com/JetBrains/kotlinconf-app)
 
 **요약** — Kotlin/Wasm과 Compose for Web의 Beta 진입 준비 상태와 사용 시점 판단.
 

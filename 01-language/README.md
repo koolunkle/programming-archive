@@ -22,6 +22,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Smart Casts - How They Work
 
 > *The wonders of smart casting* — Alejandro Serrano Mena · [PDF](<Smart Casts - How They Work.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.4–23
 
 **요약** — 컴파일러가 data-flow로 축적하는 facts와 implications, 그리고 그것이 적용되는 안정성 조건.
 
@@ -43,6 +45,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Rich Errors - Union Error Types
 
 > *Rich Errors in Kotlin* — Michail Zarečenskij · [PDF](<Rich Errors - Union Error Types.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.6–33, 36–60, 63–100
 
 **요약** — 복구 가능한 실패를 `T | Error` 형태의 반환 타입으로 표현하는 새 에러 모델. nulls-as-errors 패턴의 일반화.
 
@@ -66,6 +70,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Return Values - Unused Result Checker
 
 > *Don't forget your values!* — Leonid Startsev · [PDF](<Return Values - Unused Result Checker.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–17, 34–56
 
 **요약** — 사용하지 않은 반환값을 경고하는 언어 수준 검사기. Rich Errors의 에러가 조용히 버려지는 것을 막는 짝.
 
@@ -89,6 +95,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Immutability - Upcoming Language Features
 
 > *A (deep) dive into (shallow) immutability* — Marat Akhin · [PDF](<Immutability - Upcoming Language Features.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–10, 20–37, 43–77, 81–92
 
 **요약** — 다중 프로퍼티 value class, 컴파일러가 강제하는 깊은 불변성(`immutable`), 불변 데이터를 편하게 갱신하는 `copy var`.
 
@@ -113,6 +121,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Type Checking - Design Beyond Inference
 
 > *Designing Kotlin Beyond Type-Inference* — Ross Tate · [PDF](<Type Checking - Design Beyond Inference.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.3–14, 20–36, 41–42
 
 **요약** — 타입 *추론* 대신 *outference*(타입 존재성만 검증)로 전환하면 가능해지는 기능들. 발표자 스스로 "brainstorm" 단계라고 명시한 장기 비전.
 
@@ -135,6 +145,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Nullness - JSpecify Annotations for Java Interop
 
 > *JSpecify: Java Nullness Annotations and Kotlin* — David Baker · [PDF](<Nullness - JSpecify Annotations for Java Interop.pdf>)
+>
+> 예제 코드: 슬라이드 p.4–14 · 라이브러리 [jspecify/jspecify](https://github.com/jspecify/jspecify)
 
 **요약** — Java 라이브러리의 platform type(`String!`)을 없애는 표준 nullness 어노테이션.
 
@@ -157,6 +169,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## Compiler Plugins - Writing Your Own
 
 > *Writing Your Third Kotlin Compiler Plugin* — Brian Norman · [PDF](<Compiler Plugins - Writing Your Own.pdf>)
+>
+> 예제 코드: [bnorm/buildable](https://github.com/bnorm/buildable) (발표의 `@Buildable` 플러그인 전체 코드) · 슬라이드 p.39–242
 
 **요약** — K2 컴파일러 파이프라인과 FIR/IR 확장 지점을 `@Buildable`(빌더 클래스 생성) 예제로 따라가는 실전 가이드.
 
@@ -182,6 +196,8 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 ## 예제 코드: New Features Survey
 
 > *Dissecting Kotlin: Surveying the Latest Stable and Experimental* — Huyen Tue Dao · [코드](<New Features Survey - Example Code/Dissecting Kotlin IV/dk4/src/main/kotlin>)
+>
+> 예제 코드: 이 폴더의 로컬 프로젝트 [dk4](<New Features Survey - Example Code/Dissecting Kotlin IV/dk4>)(발표 예제, Gradle 멀티모듈) · [Test](<New Features Survey - Example Code/Dissecting Kotlin IV/Test>)(`when`·sealed 실습)
 
 발표 슬라이드 없이 예제 프로젝트만 있음. Kotlin `2.2.0-RC`, JVM 17, `-Xcontext-parameters` 사용.
 

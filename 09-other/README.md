@@ -7,6 +7,8 @@
 ## IoT - Embedded Linux & ESP32
 
 > *IoT development with Kotlin* — Erik Hellman · [PDF](<IoT - Embedded Linux & ESP32.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.19–26, 32–34, 44–47 · 라이브러리 [JuulLabs/kable](https://github.com/JuulLabs/kable), [dossiersolutions/amqp-connector](https://github.com/dossiersolutions/amqp-connector)(보관됨)
 
 **요약** — 화면이 거의 없고 항상 연결된 임베디드 Linux 기기를 Kotlin으로 개발할 때의 선택지: 런타임, Bluetooth, 백엔드 프로토콜, 프로비저닝.
 
@@ -28,6 +30,8 @@
 ## NES Emulator - Built in Kotlin
 
 > *Build your own NES Emulator... with Kotlin* — Artur Skowroński · [PDF](<NES Emulator - Built in Kotlin.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.62–98, 114, 121
 
 **요약** — Java 애플릿 기반 NES 에뮬레이터(vNES)를 Kotlin + Gradle + Compose로 다시 만든 kNES. NES 하드웨어 구조와 에뮬레이션이 어려운 이유.
 

@@ -24,6 +24,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Spring Boot 4 - Kotlin Support
 
 > *Next level Kotlin support in Spring Boot 4* — Sébastien Deleuze · [PDF](<spring/Spring Boot 4 - Kotlin Support.pdf>)
+>
+> 예제 코드: [sdeleuze/spring-petklinik](https://github.com/sdeleuze/spring-petklinik) · 슬라이드 p.8–21, 28, 34–37, 50
 
 **요약** — JetBrains–Spring 전략적 파트너십 발표와 함께 Spring Framework 7 / Boot 4(Kotlin 2.2+ 기준)의 Kotlin 개선점.
 
@@ -47,6 +49,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Modern Server Stack - Kotlin & Spring
 
 > *Kotlin and Spring: The Modern Server Side Stack* — Rod Johnson · [HTML 슬라이드](<spring/Modern Server Stack - Kotlin & Spring.html>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 9–13, 20 · 프레임워크 [embabel/embabel-agent](https://github.com/embabel/embabel-agent)
 
 **요약** — Spring 창시자가 말하는 Kotlin+Spring의 장점과, 이 슬라이드 자체를 생성한 Kotlin 에이전트 프레임워크 **Embabel**.
 
@@ -67,6 +71,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Serverless - Clean Architecture with Spring Cloud Function
 
 > *Kotlin Clean Architecture for Serverless: Business Logic You Can Take Anywhere* — Elena van Engelen · [PDF](<spring/Serverless - Clean Architecture with Spring Cloud Function.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–15, 19–20, 23
 
 **요약** — 서버리스의 lock-in은 플랫폼이 아니라 코드 구조의 문제. Clean Architecture + Spring Cloud Function + Gradle 모듈로 AWS Lambda와 Azure Functions에 같은 비즈니스 로직을 배포.
 
@@ -86,6 +92,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Exposed 1.0 - SQL Library
 
 > *Exposed 1.0: Stable, Scalable, and Looking Forward* — Chantal Loncle · [PDF](<Exposed 1.0 - SQL Library.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.40–62, 70–134, 138–155
 
 **요약** — JetBrains의 Kotlin SQL 라이브러리 Exposed의 1.0 안정화. 가장 큰 변화는 **R2DBC(비동기) 지원**.
 
@@ -108,6 +116,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Full-Stack Webapp - Kotlin-only Side Project
 
 > *That's Unpossible - A Full Stack Side Project webapp* — Dan Kim · [PDF](<Full-Stack Webapp - Kotlin-only Side Project.pdf>)
+>
+> 예제 코드: [lateplate/kc2025-app](https://github.com/lateplate/kc2025-app) · 슬라이드 p.27–141 전반
 
 **요약** — CSS·JS 없이 Kotlin만으로 SPA처럼 동작하는 웹앱 만들기: **Vaadin + Karibu-DSL**(UI) + **Exposed**(DB) + coroutines.
 
@@ -129,6 +139,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Plugins - Extending Ktor
 
 > *Extending Ktor for Server Side Development* — Ido Flax · [PDF](<ktor/Plugins - Extending Ktor.pdf>)
+>
+> 예제 코드: 슬라이드 p.7–29 · 발표자 라이브러리 [Flaxoos/extra-ktor-plugins](https://github.com/Flaxoos/extra-ktor-plugins)
 
 **요약** — Ktor 생태계가 Spring보다 얇은 부분(Kafka, 분산 스케줄링, rate limit, circuit breaker)을 직접 플러그인으로 채우는 방법.
 
@@ -148,6 +160,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## HTMX - Full-Stack with Ktor
 
 > *Simplifying Full-Stack Kotlin: A Fresh Take with HTMX and Ktor* — Anders Sveen · [PDF](<ktor/HTMX - Full-Stack with Ktor.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.23, 30–33 (데모는 p.26·35의 QR 코드)
 
 **요약** — SPA 대신 HTML-first + HTMX로 필요한 곳에만 상호작용을 추가하는 풀스택 Kotlin.
 
@@ -168,6 +182,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## http4k - Streaming Protocols
 
 > *Full Stream Ahead: Breaking the protocol barrier with http4k* — Ivan Sanchez · [PDF](<streaming/http4k - Streaming Protocols.pdf>)
+>
+> 예제 코드: [http4k/full-stream-ahead](https://github.com/http4k/full-stream-ahead) · 슬라이드 p.12–31
 
 **요약** — 웹 UI 기술의 역사를 짚고, HTTP·WebSocket·SSE를 모두 **함수로 모델링**하는 http4k와 SSE 기반 hypermedia 프레임워크 **Datastar**를 결합.
 
@@ -189,6 +205,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Kafka Streams & RocksDB
 
 > *Stream Processing Rocks!* — Hunter Sherman, Geoff Gerrietts · [PDF](<streaming/Kafka Streams & RocksDB.pdf>)
+>
+> 예제 코드: [HunterSherms/stream-processing-kotlin](https://github.com/HunterSherms/stream-processing-kotlin) (슬라이드에는 코드 없음, 라이브 코딩)
 
 **요약** — DB 폴링 아키텍처를 Kafka 스트림 파이프라인으로 바꾸는 이유와, compacted topic + RocksDB로 서비스 내 상태를 다루는 방법.
 
@@ -211,6 +229,8 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 ## Flink & Ktor - Real-Time Dashboards
 
 > *Event-Driven Analytics: Building Real-Time Dashboards with Apache Flink and Ktor* — Viktor Gamov · [PDF](<streaming/Flink & Ktor - Real-Time Dashboards.pdf>)
+>
+> 예제 코드: 별도 저장소 없음 · 슬라이드 p.26–35
 
 **요약** — Apache Flink의 핵심 개념(스트림, 상태, 시간)과 Ktor로 결과를 실시간 대시보드에 띄우는 구성. 슬라이드는 개념 위주, 구현은 데모.
 
