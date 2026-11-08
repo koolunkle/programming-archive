@@ -36,6 +36,7 @@
 | --- | --- | --- | --- | --- |
 | Java | [nepp-plus](languages/java/training/nepp-plus) | 교육 | 넵플러스 | 기본 문법, OOP 기초, 상속, 추상화, 표준 API, 컬렉션, 파일 I/O |
 | Kotlin | [kotlin-cookbook](languages/kotlin/books/kotlin-cookbook) | 도서 | Kotlin Cookbook | 컬렉션, 코루틴, 위임, 스코프 함수, 함수형 프로그래밍 등 |
+| Kotlin | [kotlinconf-2025](languages/kotlin/conferences/kotlinconf-2025) | 컨퍼런스 | KotlinConf 2025 | 언어 설계, 코루틴, Multiplatform, Compose, 서버, 빌드 도구, AI 등 68개 발표 요약과 학습 포인트 |
 | Kotlin | [jungdaeri-kotlin-basics](languages/kotlin/courses/jungdaeri-kotlin-basics) | 강의 | 인프런 - 개발하는 정대리 코틀린 기초 문법 | 클래스, 제네릭, 컬렉션 함수, 스코프 함수 등 기초 문법 |
 | Dart | [jungdaeri-dart-basics](languages/dart/courses/jungdaeri-dart-basics) | 강의 | 인프런 - 개발하는 정대리 다트 기초 문법 | 컬렉션, Null Safety, Record, Future, Stream 등 기초 문법 |
 | Dart | [codefactory-dart-crash-course](languages/dart/courses/codefactory-dart-crash-course) | 강의 | 인프런 - [코드팩토리] [입문] Dart 언어 4시간만에 완전정복 | 기초 문법, 객체지향, 함수형, 비동기 프로그래밍, Dart 3 신규 기능 |
