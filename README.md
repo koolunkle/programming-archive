@@ -13,6 +13,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 ### Computer Science & DevOps
 
@@ -48,3 +49,4 @@
 | Database | [seafood-management](cs/database/training/mirae-it-campus/seafood-management) | 교육 | 미래IT캠퍼스 | Java, MySQL 기반 수산물 관리 프로그램 |
 | Network | [tcp-socket-chat](cs/network/training/mirae-it-campus/tcp-socket-chat) | 교육 | 미래IT캠퍼스 | Java TCP 소켓 기반 채팅 클라이언트/서버 |
 | Docker | [learn-docker](cs/docker/courses/inflearn/learn-docker) | 강의 | 인프런 | Docker CLI, Dockerfile, Docker Compose 실습 |
+| Fundamentals | [17-practical-dev-skills](cs/fundamentals/books/17-practical-dev-skills) | 도서 | 학교에서 알려주지 않는 17가지 실무 개발 기술 | 문자열 인코딩, 시간, UUID, 해시, JSON/YAML/XML, Protobuf, Base64, HTTP, REST, OAuth 등 실무 기술과 Python 예제 |
