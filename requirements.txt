@@ -2,4 +2,7 @@ bitstring
 flask
 pyyaml
 lxml
+# 11장 *_pb2.py 파일이 protobuf 7.35.1로 생성되어 그 이상 버전이 필요하다
 protobuf>=7.35.1
+# 7장 README의 Argon2id 예제
+argon2-cffi
