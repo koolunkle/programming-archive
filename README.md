@@ -27,7 +27,7 @@
 | 프로젝트 | 유형 | 출처 | 내용 |
 | --- | --- | --- | --- |
 | [large-scale-web-app-react](frontend/books/large-scale-web-app-react) | 도서 | 대규모 React 웹 앱 개발 | 모듈화, 상태 관리, 라우팅, 데이터 페칭, 테스트, 성능, 디자인 시스템 등 |
-| [craftsman-mentality](frontend/courses/craftsman-mentality) | 강의 | 크래프트맨 멘탈리티 (YouTube) - HTML, CSS, JavaScript: 웹 개발의 핵심을 단 7시간 만에 끝내기! | HTML 태그, CSS 선택자, 박스 모델, 레이아웃, JavaScript 기초 및 토이 프로젝트 |
+| [craftsman-mentality](frontend/courses/craftsman-mentality) | 강의 | 크래프트맨 멘탈리티 (YouTube) - HTML, CSS, JavaScript: 웹 개발의 핵심을 단 7시간 만에 끝내기 | HTML 태그, CSS 선택자, 박스 모델, 레이아웃, JavaScript 기초 및 토이 프로젝트 |
 
 ### Languages
 
