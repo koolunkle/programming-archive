@@ -35,9 +35,9 @@
 | --- | --- | --- | --- | --- |
 | Java | [nepp-plus](languages/java/training/nepp-plus) | 교육 | 넵플러스 | 기본 문법, OOP 기초, 상속, 추상화, 표준 API, 컬렉션, 파일 I/O |
 | Kotlin | [kotlin-cookbook](languages/kotlin/books/kotlin-cookbook) | 도서 | Kotlin Cookbook | 컬렉션, 코루틴, 위임, 스코프 함수, 함수형 프로그래밍 등 |
-| Kotlin | [jungdaeri-kotlin-basics](languages/kotlin/courses/jungdaeri-kotlin-basics) | 강의 | 정대리 | 클래스, 제네릭, 컬렉션 함수, 스코프 함수 등 기초 문법 |
+| Kotlin | [jungdaeri-kotlin-basics](languages/kotlin/courses/jungdaeri-kotlin-basics) | 강의 | 인프런 - 개발하는 정대리 코틀린 기초 문법 | 클래스, 제네릭, 컬렉션 함수, 스코프 함수 등 기초 문법 |
 | Dart | [jungdaeri-dart-basics](languages/dart/courses/jungdaeri-dart-basics) | 강의 | 인프런 - 개발하는 정대리 다트 기초 문법 | 컬렉션, Null Safety, Record, Future, Stream 등 기초 문법 |
-| Dart | [codefactory-dart-crash-course](languages/dart/courses/codefactory-dart-crash-course) | 강의 | 코드팩토리 | 기초 문법, 객체지향, 함수형, 비동기 프로그래밍, Dart 3 신규 기능 |
+| Dart | [codefactory-dart-crash-course](languages/dart/courses/codefactory-dart-crash-course) | 강의 | 인프런 - [코드팩토리] [입문] Dart 언어 4시간만에 완전정복 | 기초 문법, 객체지향, 함수형, 비동기 프로그래밍, Dart 3 신규 기능 |
 | TypeScript | [typescript](languages/typescript) | 실습 | - | 타입 기초부터 제네릭, 타입 좁히기, 유틸리티 타입까지 섹션 1~12 |
 
 ### Computer Science & DevOps
