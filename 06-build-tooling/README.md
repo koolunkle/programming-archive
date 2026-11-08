@@ -20,7 +20,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Compatibility - JVM Target & Library Versions
 
-> *Kotlin compatibility crash course* — Martin Bonnin · [PDF](<Compatibility - JVM Target & Library Versions.pdf>)
+> *Kotlin compatibility crash course* — Martin Bonnin · [영상](https://www.youtube.com/watch?v=2Vp2QeBZkfo)
 >
 > 예제 코드: 슬라이드 p.8–32, 47–74 · 발표자 플러그인 [GradleUp/compat-patrouille](https://github.com/GradleUp/compat-patrouille)
 
@@ -46,7 +46,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Gradle - Scalable Setup Practices
 
-> *Getting your Gradle setup right, at the right time* — Marcin Mycek · [PDF](<Gradle - Scalable Setup Practices.pdf>)
+> *Getting your Gradle setup right, at the right time* — Marcin Mycek · [영상](https://www.youtube.com/watch?v=QSoG8OaCSgw)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–12 (빌드 스크립트·version catalog)
 
@@ -66,7 +66,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Gradle - Fast Inner Dev Loops
 
-> *Fast inner dev loops for Kotlin Gradle builds* — Alex Semin, Rodrigo Oliveira · [PDF](<Gradle - Fast Inner Dev Loops.pdf>)
+> *Fast inner dev loops for Kotlin Gradle builds* — Alex Semin, Rodrigo Oliveira · [영상](https://www.youtube.com/watch?v=eryPIdJjBgk)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.10, 14, 21, 31–43
 
@@ -89,7 +89,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Static Analysis - KtLint & Detekt
 
-> *Code Quality at Scale: Future-Proof Your Android Codebase with KtLint and Detekt* — Tristan Hamilton · [PDF](<Static Analysis - KtLint & Detekt.pdf>)
+> *Code Quality at Scale: Future-Proof Your Android Codebase with KtLint and Detekt* — Tristan Hamilton · [영상](https://www.youtube.com/watch?v=WTWW7OOHQIw)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.24–36, 52–78, 83–122, 136–143 (커스텀 detekt 룰은 p.86–122)
 
@@ -113,7 +113,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Amper - Latest Updates
 
-> *What's new in Amper* — Dmitry Savvinov · [PDF](<Amper - Latest Updates.pdf>)
+> *What's new in Amper* — Dmitry Savvinov · [영상](https://www.youtube.com/watch?v=Hy5TOyDDics)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.33–39, 50–60
 
@@ -133,7 +133,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## Buck2 - Building Kotlin & Android
 
-> *Build your Kotlin and Android apps with Buck2* — Sergei Rybalkin · [PDF](<Buck2 - Building Kotlin & Android.pdf>)
+> *Build your Kotlin and Android apps with Buck2* — Sergei Rybalkin · [영상](https://www.youtube.com/watch?v=bC_grxuSO08)
 >
 > 예제 코드: 슬라이드 p.5–6, 17–18 · 도구 [facebook/buck2](https://github.com/facebook/buck2)
 
@@ -155,7 +155,7 @@ Gradle의 성능·구성 방법, 새 빌드 도구(Amper, Buck2), JVM·Kotlin �
 
 ## klibs.io - Kotlin Package Index
 
-> *Klibs.io — the dream of creating a Kotlin Package Index* — Ignat Beresnev · [PDF](<klibs.io - Kotlin Package Index.pdf>)
+> *Klibs.io — the dream of creating a Kotlin Package Index* — Ignat Beresnev · [영상](https://www.youtube.com/watch?v=rKbM3e0OidI)
 >
 > 예제 코드: 없음 (코드 없이 서비스·데이터 모델 소개 중심)
 

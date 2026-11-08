@@ -6,7 +6,7 @@
 
 ## IoT - Embedded Linux & ESP32
 
-> *IoT development with Kotlin* — Erik Hellman · [PDF](<IoT - Embedded Linux & ESP32.pdf>)
+> *IoT development with Kotlin* — Erik Hellman · [영상](https://www.youtube.com/watch?v=bKwdgMKyFOY)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.19–26, 32–34, 44–47 · 라이브러리 [JuulLabs/kable](https://github.com/JuulLabs/kable), [dossiersolutions/amqp-connector](https://github.com/dossiersolutions/amqp-connector)(보관됨)
 
@@ -29,7 +29,7 @@
 
 ## NES Emulator - Built in Kotlin
 
-> *Build your own NES Emulator... with Kotlin* — Artur Skowroński · [PDF](<NES Emulator - Built in Kotlin.pdf>)
+> *Build your own NES Emulator... with Kotlin* — Artur Skowroński · [영상](https://www.youtube.com/watch?v=4A6aLK2KznU)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.62–98, 114, 121
 

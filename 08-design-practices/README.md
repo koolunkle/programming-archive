@@ -18,7 +18,7 @@
 
 ## API Design - Lessons from Android API Council
 
-> *APIs: How Hard Can They Be?* — Aurimas Liutikas, Alan Viverette · [PDF](<API Design - Lessons from Android API Council.pdf>)
+> *APIs: How Hard Can They Be?* — Aurimas Liutikas, Alan Viverette · [영상](https://www.youtube.com/watch?v=JKLqQiYh8GQ)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.17–45, 54–83, 91–92
 
@@ -44,7 +44,7 @@
 
 ## Anti-patterns - Kotlin Worst Practices
 
-> *Kotlin Worst Practices — How to Maximize Your Hassle* — Liliia Abdulina · [PDF](<Anti-patterns - Kotlin Worst Practices.pdf>)
+> *Kotlin Worst Practices — How to Maximize Your Hassle* — Liliia Abdulina · [영상](https://www.youtube.com/watch?v=ojuBhKRzyL8)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.15–25, 37–51, 59–75
 
@@ -66,7 +66,7 @@
 
 ## Data-Oriented Design
 
-> *Good Old Data* — Andrey Zaytsev · [PDF](<Data-Oriented Design.pdf>)
+> *Good Old Data* — Andrey Zaytsev · [영상](https://www.youtube.com/watch?v=a8uMQk4R6jQ)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.11–13, 19–38, 42, 49–52
 
@@ -85,13 +85,13 @@
 
 - 앱 상태 하나를 `(State, Event) -> State` 리듀서 + persistent 컬렉션으로 재구성해 보고, undo/재생이 얼마나 쉬워지는지 확인
 - 도메인 모델에서 identity와 state가 섞인 클래스 찾기
-- [01 Immutability](<../01-language/Immutability - Upcoming Language Features.pdf>)와 함께 읽기 — 이 발표가 그 기능의 동기
+- [01 Immutability](<../01-language/README.md#immutability---upcoming-language-features>)와 함께 읽기 — 이 발표가 그 기능의 동기
 
 ---
 
 ## Systems Thinking - Well-Functioning Systems
 
-> *Qualities of a Well-Functioning System* — Diana Montalion · [PDF](<Systems Thinking - Well-Functioning Systems.pdf>)
+> *Qualities of a Well-Functioning System* — Diana Montalion · [영상](https://www.youtube.com/watch?v=dcgwPpVT74g)
 >
 > 예제 코드: 없음 (코드 없이 개념 중심)
 

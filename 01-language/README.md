@@ -15,13 +15,13 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 - Rich Errors의 `T | Error` ↔ Type Checking의 "categorized union" — 같은 문제를 언어 설계자와 타입 이론 관점에서 본 것
 - Return Values의 `@MustUseReturnValue` ↔ JSpecify의 차기 과제(반환값 검사) — Kotlin·Java 생태계가 같은 방향으로 수렴 중
-- Immutability ↔ [Data-Oriented Design](<../08-design-practices/Data-Oriented Design.pdf>) — 기능(how)과 설계 철학(why)
+- Immutability ↔ [Data-Oriented Design](<../08-design-practices/README.md#data-oriented-design>) — 기능(how)과 설계 철학(why)
 
 ---
 
 ## Smart Casts - How They Work
 
-> *The wonders of smart casting* — Alejandro Serrano Mena · [PDF](<Smart Casts - How They Work.pdf>)
+> *The wonders of smart casting* — Alejandro Serrano Mena · [영상](https://www.youtube.com/watch?v=Q4oj9fkaDCs)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.4–23
 
@@ -44,7 +44,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Rich Errors - Union Error Types
 
-> *Rich Errors in Kotlin* — Michail Zarečenskij · [PDF](<Rich Errors - Union Error Types.pdf>)
+> *Rich Errors in Kotlin* — Michail Zarečenskij · [영상](https://www.youtube.com/watch?v=IUrA3mDSWZQ)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.6–33, 36–60, 63–100
 
@@ -69,7 +69,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Return Values - Unused Result Checker
 
-> *Don't forget your values!* — Leonid Startsev · [PDF](<Return Values - Unused Result Checker.pdf>)
+> *Don't forget your values!* — Leonid Startsev · [영상](https://www.youtube.com/watch?v=OyEfB6Q4Y0s)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–17, 34–56
 
@@ -94,7 +94,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Immutability - Upcoming Language Features
 
-> *A (deep) dive into (shallow) immutability* — Marat Akhin · [PDF](<Immutability - Upcoming Language Features.pdf>)
+> *A (deep) dive into (shallow) immutability* — Marat Akhin · [영상](https://www.youtube.com/watch?v=qpM3_ymNkP8)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–10, 20–37, 43–77, 81–92
 
@@ -120,7 +120,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Type Checking - Design Beyond Inference
 
-> *Designing Kotlin Beyond Type-Inference* — Ross Tate · [PDF](<Type Checking - Design Beyond Inference.pdf>)
+> *Designing Kotlin Beyond Type-Inference* — Ross Tate · [영상](https://www.youtube.com/watch?v=P0mo8Tzrapo)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.3–14, 20–36, 41–42
 
@@ -144,7 +144,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Nullness - JSpecify Annotations for Java Interop
 
-> *JSpecify: Java Nullness Annotations and Kotlin* — David Baker · [PDF](<Nullness - JSpecify Annotations for Java Interop.pdf>)
+> *JSpecify: Java Nullness Annotations and Kotlin* — David Baker · [영상](https://www.youtube.com/watch?v=z_IO2_XeW2Q)
 >
 > 예제 코드: 슬라이드 p.4–14 · 라이브러리 [jspecify/jspecify](https://github.com/jspecify/jspecify)
 
@@ -168,7 +168,7 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ## Compiler Plugins - Writing Your Own
 
-> *Writing Your Third Kotlin Compiler Plugin* — Brian Norman · [PDF](<Compiler Plugins - Writing Your Own.pdf>)
+> *Writing Your Third Kotlin Compiler Plugin* — Brian Norman · [영상](https://www.youtube.com/watch?v=9P7qUGi5_gc)
 >
 > 예제 코드: [bnorm/buildable](https://github.com/bnorm/buildable) (발표의 `@Buildable` 플러그인 전체 코드) · 슬라이드 p.39–242
 
@@ -193,24 +193,21 @@ Kotlin 언어 자체의 진화 방향을 다루는 발표 모음. 대부분 **Ko
 
 ---
 
-## 예제 코드: New Features Survey
+## New Features Survey - Latest Stable & Experimental
 
-> *Dissecting Kotlin: Surveying the Latest Stable and Experimental* — Huyen Tue Dao · [코드](<New Features Survey - Example Code/Dissecting Kotlin IV/dk4/src/main/kotlin>)
+> *Dissecting Kotlin: Surveying the Latest Stable and Experimental* — Huyen Tue Dao · [영상](https://www.youtube.com/watch?v=sDA28kH6AIc)
 >
-> 예제 코드: 이 폴더의 로컬 프로젝트 [dk4](<New Features Survey - Example Code/Dissecting Kotlin IV/dk4>)(발표 예제, Gradle 멀티모듈) · [Test](<New Features Survey - Example Code/Dissecting Kotlin IV/Test>)(`when`·sealed 실습)
+> 예제 코드: 발표자의 예제 프로젝트(Kotlin `2.2.0-RC`, JVM 17, `-Xcontext-parameters`)는 공개 저장소가 없어 영상으로 확인
 
-발표 슬라이드 없이 예제 프로젝트만 있음. Kotlin `2.2.0-RC`, JVM 17, `-Xcontext-parameters` 사용.
-
-| 파일 | 주제 |
+| 순서 | 주제 |
 | --- | --- |
-| `01_EnumValuesToEnumEntries.kt` | `values()` → `entries` (할당 없는 대체) |
-| `02a`~`02d` | scope function, extension, receiver, extension member — context parameter의 선행 개념 |
-| `02e_ContextReceivers.kt` → `02f_ContextParameters.kt` | context receiver(폐기)에서 context parameter로의 전환, 사용 지침 |
-| `03_GuardConditions.kt` | `when` 분기의 guard condition (`is X if cond ->`) |
-| `10_QuickHits.kt` | non-local `break`/`continue`, sealed class exhaustiveness 개선 (2.1.0) |
-| `99_References.md` | 각 기능의 KEEP·릴리스 노트 링크 |
+| 1 | `values()` → `entries` (할당 없는 대체) |
+| 2 | scope function, extension, receiver, extension member — context parameter의 선행 개념 |
+| 3 | context receiver(폐기)에서 context parameter로의 전환, 사용 지침 |
+| 4 | `when` 분기의 guard condition (`is X if cond ->`) |
+| 5 | non-local `break`/`continue`, sealed class exhaustiveness 개선 (2.1.0) |
 
 **학습 포인트**
 
-- `02e` → `02f` 순으로 읽으며 context receiver가 폐기된 이유와 context parameter의 해석 규칙 차이 정리
-- `02f` 하단의 스타일 가이드("단순히 인자를 넘기는 용도로 쓰지 말 것", "작은 context 여러 개보다 상위 context로 묶을 것")를 기존 코드의 DI·로깅 패턴에 적용해 보기
+- context receiver가 폐기된 이유와 context parameter의 해석 규칙 차이 정리
+- context parameter 스타일 가이드("단순히 인자를 넘기는 용도로 쓰지 말 것", "작은 context 여러 개보다 상위 context로 묶을 것")를 기존 코드의 DI·로깅 패턴에 적용해 보기

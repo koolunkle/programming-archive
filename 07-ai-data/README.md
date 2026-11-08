@@ -16,13 +16,13 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 - 같은 문제, 다른 답 — "어떤 함수를 호출할지" 결정: LLM function calling(AI Basics, LangChain4j) vs 그래프로 고정된 전략(Koog) vs embedding 유사도(AI Bot의 semantic routing)
 - 평가와 관측성은 Koog(`Tracing`)와 Agentic Platform(OpenTelemetry + Phoenix)이 공통으로 강조 — 프로토타입과 프로덕션을 가르는 지점
-- Uber의 마이그레이션 검증 문제(null 안전성) ↔ [01 JSpecify](<../01-language/Nullness - JSpecify Annotations for Java Interop.pdf>)
+- Uber의 마이그레이션 검증 문제(null 안전성) ↔ [01 JSpecify](<../01-language/README.md#nullness---jspecify-annotations-for-java-interop>)
 
 ---
 
 ## AI Basics - Getting Started for Kotlin Devs
 
-> *From 0 to h-AI-ro: high-speed track to AI for Kotlin developers* — Urs Peter · [PDF](<AI Basics - Getting Started for Kotlin Devs.pdf>)
+> *From 0 to h-AI-ro: high-speed track to AI for Kotlin developers* — Urs Peter · [영상](https://www.youtube.com/watch?v=zBgb0z1pQkM)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.9, 16, 19, 27, 32, 37–55, 60–70
 
@@ -46,7 +46,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## MCP - Model Context Protocol SDK
 
-> *Model Context Protocol in Kotlin* — Alexander Sysoev · [PDF](<MCP - Model Context Protocol SDK.pdf>)
+> *Model Context Protocol in Kotlin* — Alexander Sysoev · [영상](https://www.youtube.com/watch?v=D3hCBrxJHLo)
 >
 > 예제 코드: [Mr3zee/kotlinconf-app](https://github.com/Mr3zee/kotlinconf-app/blob/main/MCP.md) (KotlinConf 앱에 MCP 서버를 붙인 예) · 슬라이드 p.6–21, 46–59
 
@@ -69,7 +69,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## LangChain4j - with Quarkus
 
-> *LangChain4j with Quarkus* — Max Rydahl Andersen, Konstantin Pavlov · [PDF](<LangChain4j - with Quarkus.pdf>)
+> *LangChain4j with Quarkus* — Max Rydahl Andersen, Konstantin Pavlov · [영상](https://www.youtube.com/watch?v=hxEM5J6QfLY)
 >
 > 예제 코드: 슬라이드 p.9, 13–23 · 확장 [quarkiverse/quarkus-langchain4j](https://github.com/quarkiverse/quarkus-langchain4j), [quarkiverse/quarkus-mcp-server](https://github.com/quarkiverse/quarkus-mcp-server)
 
@@ -93,7 +93,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## Agents - Koog Framework
 
-> *Building AI Agents in Kotlin* — Vadim Briliantov · [PDF](<Agents - Koog Framework.pdf>)
+> *Building AI Agents in Kotlin* — Vadim Briliantov · [영상](https://www.youtube.com/watch?v=O8WQCrdza8E)
 >
 > 예제 코드: [JetBrains/koog](https://github.com/JetBrains/koog) (발표 대상 프레임워크) · 슬라이드 p.76–85, 124–128, 135–148
 
@@ -121,7 +121,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## Agents - LLM App Evaluation Platform
 
-> *Building an Agentic Platform with Kotlin* — Patrick Whelan · [PDF](<Agents - LLM App Evaluation Platform.pdf>)
+> *Building an Agentic Platform with Kotlin* — Patrick Whelan · [영상](https://www.youtube.com/watch?v=mQhtLCMiUMA)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–10 · 프레임워크 [Eclipse LMOS Arc](https://eclipse.dev/lmos/arc2/), [a2a-4k/a2a-4k](https://github.com/a2a-4k/a2a-4k)
 
@@ -147,7 +147,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## AI Bot - Bluesky Stream Analysis
 
-> *From Data to Insights: Building a Bluesky Bot powered by AI* — Raphael De Lio · [PDF](<AI Bot - Bluesky Stream Analysis.pdf>)
+> *From Data to Insights: Building a Bluesky Bot powered by AI* — Raphael De Lio · [영상](https://www.youtube.com/watch?v=uGgK0F3cLEI)
 >
 > 예제 코드: 없음 (슬라이드에는 아키텍처만, 코드는 라이브 데모)
 
@@ -172,7 +172,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## Migration - Java to Kotlin with AI at Uber
 
-> *Large Scale Changes with AI: Migrating millions of lines of Java to Kotlin at Uber* — Ty Smith · [PDF](<Migration - Java to Kotlin with AI at Uber.pdf>)
+> *Large Scale Changes with AI: Migrating millions of lines of Java to Kotlin at Uber* — Ty Smith · [영상](https://www.youtube.com/watch?v=K2PN03AepC0)
 >
 > 예제 코드: 슬라이드 p.31–41 · 도구 [fbsamples/kotlin_ast_tools](https://github.com/fbsamples/kotlin_ast_tools)
 
@@ -197,7 +197,7 @@ Kotlin으로 LLM 애플리케이션을 만들고 운영하는 방법, AI를 코�
 
 ## Data Analysis - Finance with DataFrame & Kandy
 
-> *Data Analysis for Finance in Kotlin* — Enrique López-Mañas · [PDF](<Data Analysis - Finance with DataFrame & Kandy.pdf>)
+> *Data Analysis for Finance in Kotlin* — Enrique López-Mañas · [영상](https://www.youtube.com/watch?v=n6egwuOnGuk)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.36–91 · 라이브러리 [Kotlin/dataframe](https://github.com/Kotlin/dataframe), [Kotlin/kandy](https://github.com/Kotlin/kandy)
 

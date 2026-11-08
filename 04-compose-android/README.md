@@ -22,7 +22,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Custom UI - Building Complex Layouts
 
-> *Creative UIs with Compose* — Chris Horner · [PDF](<Custom UI - Building Complex Layouts.pdf>)
+> *Creative UIs with Compose* — Chris Horner · [영상](https://www.youtube.com/watch?v=9KdP2idt6LE)
 >
 > 예제 코드: [chris-horner/persona-im](https://github.com/chris-horner/persona-im)
 
@@ -45,11 +45,11 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Animation - AnimationSpec & Easing
 
-> *The Easing Symphony: AnimationSpec in detail!* — Nicole Terc · [PDF](<Animation - AnimationSpec & Easing.pdf>)
+> *The Easing Symphony: AnimationSpec in detail!* — Nicole Terc · [영상](https://www.youtube.com/watch?v=clDGqPfaIto)
 >
 > 예제 코드: [nicole-terc/easing-symphony](https://github.com/nicole-terc/easing-symphony)
 
-**요약** — 음악 시각화(파형·진폭·주파수)를 예제로 `AnimationSpec`과 `Easing`의 역할을 구분하고, 둘 다 직접 만들어 보는 발표. 원본 KEY의 데모 영상 18개는 PDF에 없다.
+**요약** — 음악 시각화(파형·진폭·주파수)를 예제로 `AnimationSpec`과 `Easing`의 역할을 구분하고, 둘 다 직접 만들어 보는 발표. 슬라이드에 없는 데모 18개는 발표 영상에서 볼 수 있다.
 
 **핵심 내용**
 
@@ -69,7 +69,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Accessibility - Semantics & Accessibility Scanner
 
-> *Building Inclusive Jetpack Compose Apps* — Vanessa Johnson · [PDF](<Accessibility - Semantics & Accessibility Scanner.pdf>)
+> *Building Inclusive Jetpack Compose Apps* — Vanessa Johnson · [영상](https://www.youtube.com/watch?v=PW_qc6EUBQE)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.27–44
 
@@ -92,7 +92,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Architecture Components - Decoupling for KMP
 
-> *Lessons learned decoupling Architecture Components from platform specific code* — Jeremy Woods, Marcello Galhardo · [PDF](<Architecture Components - Decoupling for KMP.pdf>)
+> *Lessons learned decoupling Architecture Components from platform specific code* — Jeremy Woods, Marcello Galhardo · [영상](https://www.youtube.com/watch?v=jDz_yNZkEzk)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.30–36, 55–79, 90–107, 122–130, 148–170
 
@@ -116,7 +116,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Hot Reload - How It Was Built
 
-> *Implementing Compose Hot Reload* — Sebastian Sellmair · [PDF](<Hot Reload - How It Was Built.pdf>)
+> *Implementing Compose Hot Reload* — Sebastian Sellmair · [영상](https://www.youtube.com/watch?v=UebhKUdO2sQ)
 >
 > 예제 코드: 슬라이드 p.26–56 · 도구 저장소 [JetBrains/compose-hot-reload](https://github.com/JetBrains/compose-hot-reload)
 
@@ -141,7 +141,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Compose for Desktop - Inside Android Studio & IntelliJ
 
-> *Project Sparkles: How Compose for Desktop is changing Android Studio and IntelliJ* — Chris Sinco, Sebastiano Poggi · [PDF](<Compose for Desktop - Inside Android Studio & IntelliJ.pdf>)
+> *Project Sparkles: How Compose for Desktop is changing Android Studio and IntelliJ* — Chris Sinco, Sebastiano Poggi · [영상](https://www.youtube.com/watch?v=lcqtRQ5Fou8)
 >
 > 예제 코드: 없음 (코드 없이 제품 개발 사례 중심)
 
@@ -160,7 +160,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## Prototyping - Compose in Kotlin Notebooks
 
-> *Compose Prototyping in Kotlin Notebooks* — Christian Melchior · [PDF](<Prototyping - Compose in Kotlin Notebooks.pdf>)
+> *Compose Prototyping in Kotlin Notebooks* — Christian Melchior · [영상](https://www.youtube.com/watch?v=bkd6EAPIVe0)
 >
 > 예제 코드: [cmelchior/notebook-compose-kotlinconf2025](https://github.com/cmelchior/notebook-compose-kotlinconf2025) (발표 노트북 포함)
 
@@ -178,7 +178,7 @@ Compose UI의 표현력(커스텀 레이아웃·도형·애니메이션), 개발
 
 ## VR - Compose on Meta Quest
 
-> *Building immersive VR apps for Meta Quest with Jetpack Compose* — Samuel Gebre Yohannes · [PDF](<VR - Compose on Meta Quest.pdf>)
+> *Building immersive VR apps for Meta Quest with Jetpack Compose* — Samuel Gebre Yohannes · [영상](https://www.youtube.com/watch?v=l7alNC819MU)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.34–53, 60–80, 96–112
 

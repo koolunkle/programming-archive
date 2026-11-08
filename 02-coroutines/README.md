@@ -20,7 +20,7 @@
 
 ## Structured Concurrency - in Ktor
 
-> *Coroutines and Structured Concurrency in Ktor* — Simon Vergauwen · [PDF](<Structured Concurrency - in Ktor.pdf>)
+> *Coroutines and Structured Concurrency in Ktor* — Simon Vergauwen · [영상](https://www.youtube.com/watch?v=JxTIZAEos8Y)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.4–10, 16–22
 
@@ -44,7 +44,7 @@
 
 ## Flow - Lifecycle-aware Collection on Android
 
-> *Collect Like a Pro: a deep dive on the Android lifecycle-aware coroutines APIs* — Manuel Vivo · [PDF](<Flow - Lifecycle-aware Collection on Android.pdf>)
+> *Collect Like a Pro: a deep dive on the Android lifecycle-aware coroutines APIs* — Manuel Vivo · [영상](https://www.youtube.com/watch?v=qJB5iX2cOu0)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.25–26, 39–56, 70–90, 100–114 · KMP 사용 예 [joreilly/Confetti](https://github.com/joreilly/Confetti), [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace)
 
@@ -70,7 +70,7 @@
 
 ## Debugging - Performance Tuning
 
-> *Taming Asynchronous Beasts: Debugging and Performance Tuning in a Coroutine World* — Marcin Moskała · [PDF](<Debugging - Performance Tuning.pdf>)
+> *Taming Asynchronous Beasts: Debugging and Performance Tuning in a Coroutine World* — Marcin Moskała · [영상](https://www.youtube.com/watch?v=QTX5_JV4TVU)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–13, 20–30 · 도구 [reactor/BlockHound](https://github.com/reactor/BlockHound)
 
@@ -96,7 +96,7 @@
 
 ## Debugging - IntelliJ Coroutine Debugger
 
-> *Coroutine Debugging in IntelliJ IDEA* — Alexey Merkulov · [PDF](<Debugging - IntelliJ Coroutine Debugger.pdf>)
+> *Coroutine Debugging in IntelliJ IDEA* — Alexey Merkulov · [영상](https://www.youtube.com/watch?v=3vaAVtnrzAM)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.2–8, 12–53 (IDE 화면 캡처)
 
@@ -118,7 +118,7 @@
 
 ## Swift Concurrency - Compared to Coroutines
 
-> *Swift concurrency for curious Kotliners* — Nikita Bobko · [PDF](<Swift Concurrency - Compared to Coroutines.pdf>)
+> *Swift concurrency for curious Kotliners* — Nikita Bobko · [영상](https://www.youtube.com/watch?v=Jyj4kdK8a6o)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–56 (Kotlin ↔ Swift 대조 코드)
 

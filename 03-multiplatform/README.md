@@ -32,7 +32,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### AWS - Scaling a Massive KMP SDK
 
-> *Blueprints for Scale: What AWS Learned Building a Massive Multiplatform Project* — Ian Botsford, Matas Lauzadis · [PDF](<case-studies/AWS - Scaling a Massive KMP SDK.pdf>)
+> *Blueprints for Scale: What AWS Learned Building a Massive Multiplatform Project* — Ian Botsford, Matas Lauzadis · [영상](https://www.youtube.com/watch?v=fv-vw1huJ-4)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.6–8, 21–49
 
@@ -53,7 +53,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Google Workspace - Deploying KMP
 
-> *Deploying Kotlin Multiplatform at Google Workspace* — Jason Parachoniak, Troels Lund · [PDF](<case-studies/Google Workspace - Deploying KMP.pdf>)
+> *Deploying Kotlin Multiplatform at Google Workspace* — Jason Parachoniak, Troels Lund · [영상](https://www.youtube.com/watch?v=5lkZj4v4-ks)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.16, 23–24
 
@@ -75,7 +75,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### X - Rewriting Android with KMP
 
-> *One Codebase, Three Platforms: X's Experience with Kotlin Multiplatform* — Arkadii Ivanov, Eric Denman · [PDF](<case-studies/X - Rewriting Android with KMP.pdf>)
+> *One Codebase, Three Platforms: X's Experience with Kotlin Multiplatform* — Arkadii Ivanov, Eric Denman · [영상](https://www.youtube.com/watch?v=z-u99yZFn5o)
 >
 > 예제 코드: 없음 (코드 없이 아키텍처·사례 중심)
 
@@ -95,7 +95,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### McDonalds - Shared Navigation
 
-> *Leveraging KMP for navigation in the McDonalds App* — Cas van Luijtelaar, Anthony Bassey · [PDF](<case-studies/McDonalds - Shared Navigation.pdf>)
+> *Leveraging KMP for navigation in the McDonalds App* — Cas van Luijtelaar, Anthony Bassey · [영상](https://www.youtube.com/watch?v=HSIhkB5bGJs)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.7–21
 
@@ -114,7 +114,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### RevenueCat - Wrapping Native SDKs
 
-> *Making native SDKs Multiplatform at RevenueCat* — Joop Korteweg · [PDF](<case-studies/RevenueCat - Wrapping Native SDKs.pdf>)
+> *Making native SDKs Multiplatform at RevenueCat* — Joop Korteweg · [영상](https://www.youtube.com/watch?v=5Sc3Qdb0XoQ)
 >
 > 예제 코드: 슬라이드 p.9, 13–26 · 발표 대상 SDK [RevenueCat/purchases-kmp](https://github.com/RevenueCat/purchases-kmp)
 
@@ -135,7 +135,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Logistics - Sharing Business Rules
 
-> *Kotlin Multiplatform's Cross-Platform Brilliance* — Anshika Koul · [PDF](<case-studies/Logistics - Sharing Business Rules.pdf>)
+> *Kotlin Multiplatform's Cross-Platform Brilliance* — Anshika Koul · [영상](https://www.youtube.com/watch?v=OuX5325yq_I)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.14–18
 
@@ -153,7 +153,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Fintech - Two Years to 55% Shared Code
 
-> *Two Years with Kotlin Multiplatform: From Zero to 55% Shared Code* — Rodrigo Sicarelli · [PDF](<case-studies/Fintech - Two Years to 55% Shared Code.pdf>)
+> *Two Years with Kotlin Multiplatform: From Zero to 55% Shared Code* — Rodrigo Sicarelli · [영상](https://www.youtube.com/watch?v=M9Nni0Qywyo)
 >
 > 예제 코드: 없음 (코드 없이 조직·도입 사례 중심)
 
@@ -177,7 +177,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Compose Multiplatform - iOS Stable Release
 
-> *Compose Multiplatform for iOS* — Sebastian Aigner · [PDF](<ios/Compose Multiplatform - iOS Stable Release.pdf>)
+> *Compose Multiplatform for iOS* — Sebastian Aigner · [영상](https://www.youtube.com/watch?v=YKTlW8Qkj0w)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.6, 11, 24, 47–52
 
@@ -198,7 +198,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Interop Patterns - Swift, SKIE, Compose
 
-> *Kotlin and Compose Multiplatform patterns for iOS interop* — John O'Reilly · [PDF](<ios/Interop Patterns - Swift, SKIE, Compose.pdf>)
+> *Kotlin and Compose Multiplatform patterns for iOS interop* — John O'Reilly · [영상](https://www.youtube.com/watch?v=O0BqoLcRuJI)
 >
 > 예제 코드: 발표자 샘플 [joreilly/Confetti](https://github.com/joreilly/Confetti), [joreilly/PeopleInSpace](https://github.com/joreilly/PeopleInSpace), [joreilly/BikeShare](https://github.com/joreilly/BikeShare) 외 다수 · 슬라이드 p.14–43, 48–113, 119–138
 
@@ -218,7 +218,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Swift Export - Internals
 
-> *Swift Export - a peek under the hood* — Artem Olkov · [PDF](<ios/Swift Export - Internals.pdf>)
+> *Swift Export - a peek under the hood* — Artem Olkov · [영상](https://www.youtube.com/watch?v=KEsVNrzPf24)
 >
 > 예제 코드: 공식 샘플 [Kotlin/swift-export-sample](https://github.com/Kotlin/swift-export-sample) · 슬라이드 p.14–47, 75–85, 96–141
 
@@ -244,7 +244,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Runtime - Object Lifecycle & Memory
 
-> *The Life and Death of a Kotlin/Native Object* — Troels Lund · [PDF](<native/Runtime - Object Lifecycle & Memory.pdf>)
+> *The Life and Death of a Kotlin/Native Object* — Troels Lund · [영상](https://www.youtube.com/watch?v=ufQvrZmQw_I)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.5–30, 59–74, 118–134
 
@@ -265,7 +265,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### Dependency Management
 
-> *Dependencies and Kotlin/Native* — Tadeas Kriz · [PDF](<native/Dependency Management.pdf>)
+> *Dependencies and Kotlin/Native* — Tadeas Kriz · [영상](https://www.youtube.com/watch?v=n0LpCCv3VEY)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.7–9, 16 (의존성 선언 조각, 나머지는 다이어그램)
 
@@ -286,7 +286,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ### macOS Screen Saver - Native App Example
 
-> *Building a macOS screen saver with Kotlin* — Márton Braun · [PDF](<native/macOS Screen Saver - Native App Example.pdf>)
+> *Building a macOS screen saver with Kotlin* — Márton Braun · [영상](https://www.youtube.com/watch?v=Zw7eJFciwXg)
 >
 > 예제 코드: [zsmb13/KotlinLogo-ScreenSaver](https://github.com/zsmb13/KotlinLogo-ScreenSaver) · 슬라이드 p.10–25, 32–41, 49–55
 
@@ -306,7 +306,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ## Dependency Injection - Scaling KMP Projects
 
-> *Scale your Kotlin Multiplatform projects using dependency injection* — Ralf Wondratschek · [PDF](<Dependency Injection - Scaling KMP Projects.pdf>)
+> *Scale your Kotlin Multiplatform projects using dependency injection* — Ralf Wondratschek · [영상](https://www.youtube.com/watch?v=oRKytkr2FOY)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.13–209 전반 · 라이브러리 [evant/kotlin-inject](https://github.com/evant/kotlin-inject), [amzn/kotlin-inject-anvil](https://github.com/amzn/kotlin-inject-anvil)
 
@@ -323,12 +323,12 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 **학습 포인트**
 
 - 발표의 단계를 직접 따라 작성해 보며 각 DI 방식이 해결하는 문제 정리
-- KSP 기반(kotlin-inject-anvil) vs 컴파일러 플러그인 기반(Metro) — [01 Compiler Plugins](<../01-language/Compiler Plugins - Writing Your Own.pdf>) 발표에서 Metro가 거의 모든 확장 지점을 쓰는 사례로 소개됨
+- KSP 기반(kotlin-inject-anvil) vs 컴파일러 플러그인 기반(Metro) — [01 Compiler Plugins](<../01-language/README.md#compiler-plugins---writing-your-own>) 발표에서 Metro가 거의 모든 확장 지점을 쓰는 사례로 소개됨
 - [App Platform](https://amzn.github.io/app-platform)(발표자의 Amazon 아키텍처 프레임워크)
 
 ## Library Development - Multiplatform Settings
 
-> *Multiplatform Settings: A case study in Multiplatform library development* — Russell Wolf · [PDF](<Library Development - Multiplatform Settings.pdf>)
+> *Multiplatform Settings: A case study in Multiplatform library development* — Russell Wolf · [영상](https://www.youtube.com/watch?v=vMNCAryfJys)
 >
 > 예제 코드: [russhwolf/multiplatform-settings](https://github.com/russhwolf/multiplatform-settings) (발표 대상 라이브러리) · 슬라이드 p.13–23, 26–27, 33–39
 
@@ -350,7 +350,7 @@ Kotlin Multiplatform(KMP)의 실제 도입 사례, iOS·Swift와의 경계, Kotl
 
 ## Wasm & Compose for Web - Current State
 
-> *State of Kotlin/Wasm and Compose Multiplatform for Web on Modern Browsers* — Pamela Hill · [PDF](<Wasm & Compose for Web - Current State.pdf>)
+> *State of Kotlin/Wasm and Compose Multiplatform for Web on Modern Browsers* — Pamela Hill · [영상](https://www.youtube.com/watch?v=kIEBQ_czdxs)
 >
 > 예제 코드: 슬라이드 p.3–35 · 템플릿 [Kotlin/kotlin-wasm-browser-template](https://github.com/Kotlin/kotlin-wasm-browser-template), 실제 앱 [JetBrains/kotlinconf-app](https://github.com/JetBrains/kotlinconf-app)
 

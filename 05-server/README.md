@@ -15,7 +15,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 발표 간 연결:
 
 - 서버 주도 UI 세 가지 — HTMX(HTML 조각 교체), Datastar(SSE로 DOM 병합, http4k), Vaadin/Karibu(서버 컴포넌트, Full-Stack Webapp). 모두 "SPA의 복잡도를 백엔드로 되돌린다"는 같은 동기
-- Spring의 JSpecify 채택 ↔ [01 Nullness](<../01-language/Nullness - JSpecify Annotations for Java Interop.pdf>) — 플랫폼 타입이 사라지는 실제 사례
+- Spring의 JSpecify 채택 ↔ [01 Nullness](<../01-language/README.md#nullness---jspecify-annotations-for-java-interop>) — 플랫폼 타입이 사라지는 실제 사례
 - 상태 저장소 RocksDB가 Kafka Streams(서비스 내장 캐시)와 Flink(operator state) 양쪽에 등장 — 같은 기술의 다른 쓰임
 - 에이전트 프레임워크 비교: Embabel(목표 기반 planning) ↔ [07 Koog](<../07-ai-data/README.md>)(그래프 전략)
 
@@ -23,7 +23,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Spring Boot 4 - Kotlin Support
 
-> *Next level Kotlin support in Spring Boot 4* — Sébastien Deleuze · [PDF](<spring/Spring Boot 4 - Kotlin Support.pdf>)
+> *Next level Kotlin support in Spring Boot 4* — Sébastien Deleuze · [영상](https://www.youtube.com/watch?v=QExksqeNWbY)
 >
 > 예제 코드: [sdeleuze/spring-petklinik](https://github.com/sdeleuze/spring-petklinik) · 슬라이드 p.8–21, 28, 34–37, 50
 
@@ -48,7 +48,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Modern Server Stack - Kotlin & Spring
 
-> *Kotlin and Spring: The Modern Server Side Stack* — Rod Johnson · [HTML 슬라이드](<spring/Modern Server Stack - Kotlin & Spring.html>)
+> *Kotlin and Spring: The Modern Server Side Stack* — Rod Johnson · [영상](https://www.youtube.com/watch?v=NcAW-FZtpzk)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 9–13, 20 · 프레임워크 [embabel/embabel-agent](https://github.com/embabel/embabel-agent)
 
@@ -70,7 +70,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Serverless - Clean Architecture with Spring Cloud Function
 
-> *Kotlin Clean Architecture for Serverless: Business Logic You Can Take Anywhere* — Elena van Engelen · [PDF](<spring/Serverless - Clean Architecture with Spring Cloud Function.pdf>)
+> *Kotlin Clean Architecture for Serverless: Business Logic You Can Take Anywhere* — Elena van Engelen · [영상](https://www.youtube.com/watch?v=6jZa4B-If-I)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.9–15, 19–20, 23
 
@@ -91,7 +91,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Exposed 1.0 - SQL Library
 
-> *Exposed 1.0: Stable, Scalable, and Looking Forward* — Chantal Loncle · [PDF](<Exposed 1.0 - SQL Library.pdf>)
+> *Exposed 1.0: Stable, Scalable, and Looking Forward* — Chantal Loncle · [영상](https://www.youtube.com/watch?v=xgfeqj8UyVA)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.40–62, 70–134, 138–155
 
@@ -115,7 +115,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Full-Stack Webapp - Kotlin-only Side Project
 
-> *That's Unpossible - A Full Stack Side Project webapp* — Dan Kim · [PDF](<Full-Stack Webapp - Kotlin-only Side Project.pdf>)
+> *That's Unpossible - A Full Stack Side Project webapp* — Dan Kim · [영상](https://www.youtube.com/watch?v=FXGT6HbBXNw)
 >
 > 예제 코드: [lateplate/kc2025-app](https://github.com/lateplate/kc2025-app) · 슬라이드 p.27–141 전반
 
@@ -138,7 +138,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Plugins - Extending Ktor
 
-> *Extending Ktor for Server Side Development* — Ido Flax · [PDF](<ktor/Plugins - Extending Ktor.pdf>)
+> *Extending Ktor for Server Side Development* — Ido Flax · [영상](https://www.youtube.com/watch?v=XcxqhmG_bdg)
 >
 > 예제 코드: 슬라이드 p.7–29 · 발표자 라이브러리 [Flaxoos/extra-ktor-plugins](https://github.com/Flaxoos/extra-ktor-plugins)
 
@@ -159,7 +159,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## HTMX - Full-Stack with Ktor
 
-> *Simplifying Full-Stack Kotlin: A Fresh Take with HTMX and Ktor* — Anders Sveen · [PDF](<ktor/HTMX - Full-Stack with Ktor.pdf>)
+> *Simplifying Full-Stack Kotlin: A Fresh Take with HTMX and Ktor* — Anders Sveen · [영상](https://www.youtube.com/watch?v=AlGWsTXnWsY)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.23, 30–33 (데모는 p.26·35의 QR 코드)
 
@@ -181,7 +181,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## http4k - Streaming Protocols
 
-> *Full Stream Ahead: Breaking the protocol barrier with http4k* — Ivan Sanchez · [PDF](<streaming/http4k - Streaming Protocols.pdf>)
+> *Full Stream Ahead: Breaking the protocol barrier with http4k* — Ivan Sanchez · [영상](https://www.youtube.com/watch?v=vewgb-vyJME)
 >
 > 예제 코드: [http4k/full-stream-ahead](https://github.com/http4k/full-stream-ahead) · 슬라이드 p.12–31
 
@@ -204,7 +204,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Kafka Streams & RocksDB
 
-> *Stream Processing Rocks!* — Hunter Sherman, Geoff Gerrietts · [PDF](<streaming/Kafka Streams & RocksDB.pdf>)
+> *Stream Processing Rocks!* — Hunter Sherman, Geoff Gerrietts · [영상](https://www.youtube.com/watch?v=PY7eOmnOK3s)
 >
 > 예제 코드: [HunterSherms/stream-processing-kotlin](https://github.com/HunterSherms/stream-processing-kotlin) (슬라이드에는 코드 없음, 라이브 코딩)
 
@@ -228,7 +228,7 @@ Kotlin 서버 개발의 세 축: Spring 생태계의 Kotlin 지원 강화, Ktor 
 
 ## Flink & Ktor - Real-Time Dashboards
 
-> *Event-Driven Analytics: Building Real-Time Dashboards with Apache Flink and Ktor* — Viktor Gamov · [PDF](<streaming/Flink & Ktor - Real-Time Dashboards.pdf>)
+> *Event-Driven Analytics: Building Real-Time Dashboards with Apache Flink and Ktor* — Viktor Gamov · [영상](https://www.youtube.com/watch?v=2Eyq1VhBxUg)
 >
 > 예제 코드: 별도 저장소 없음 · 슬라이드 p.26–35
 
